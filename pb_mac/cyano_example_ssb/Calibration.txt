@@ -1,0 +1,6 @@
+5
+Pseudanabaena.biceps.PCC7429 Leptolyngbya.sp.PCC7376    -1   1900
+Fischerella.sp.JSC11    Calothrix.sp.3363    1888  1600
+Pleurocapsa.sp.PCC7327  Pleurocapsa.sp.PCC7319        1888  1700
+Richelia.intracellularis.RC01      Richelia.intracellularis.HM01              -1   110
+Atelocyanobacterium.thalassa.UCYNA Atelocyanobacterium.thalassa.UCYNA2     -1    91

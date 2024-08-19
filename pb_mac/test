@@ -1,0 +1,2 @@
+# Run PhyloBayes with time tree analysis
+mpirun -np 8 pb_mpi -d ../All_uniref_hits_ALN.fa

@@ -1,0 +1,52 @@
+
+phylobayes version 4.1
+
+init seed : 834010
+
+data file : All_uniref_hits_ALN.pb
+number of taxa : 683
+number of sites: 2582
+
+fast computation / high memory use 
+
+fixed tree topology: All_uniref_hits_ALN.fa.treefile
+outgroup : outgroup.txt
+
+branch lengths ~ iid gamma of mean mu and variance epsilon*mu^2
+mu ~ exponential of mean 0.1
+epsilon ~ exponential of mean 1
+
+CAT model
+   Dirichlet process of equilibrium frequency profiles
+   flexible prior on profiles:
+   profile ~ iid from a Dirichlet of center pi0 and concentration delta
+   pi0 ~ uniform
+   delta ~ exponential of mean Nstate (=20 on amino-acid data, 4 on nucleotide data)
+
+relative exchange rates:
+empirical (lg, Le and Gascuel 2008)
+
+rates ~ gamma of mean 1 and variance 1/alpha
+4 discrete categories (Yang 1994)
+alpha ~ exponential of mean 1
+
+flexible, non-autocorrelated clock (uncorrelated gamma)
+variance parameter sigma^2 ~ exponential of mean 1
+
+calibrations : opsin_calibration.txt
+soft bounds (Inoue et al 2009)
+allowing for 2.5 % of probability mass outside calibration (2.5% on each side for an upper and lower bound)
+lower bounds as in Paml 4.2 (truncated Cauchy), p = 0.1 and c = 1
+prior on root age: gamma of mean 4510 and standard deviation 2945
+
+WARNING: it is always advised to check the prior on divergence times in the presence of calibrations, by using the -prior option
+
+prior on divergence times : birth death
+birth rate : lambda
+death rate : mu
+sammpling fraction : rho
+p1 = lambda - mu: net growth rate
+p2 = lambda * rho
+prior on p1 : gamma of mean 0.001 and std dev 0.001
+prior on p2 : gamma of mean 0.001 and std dev 0.001
+

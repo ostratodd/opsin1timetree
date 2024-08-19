@@ -1,0 +1,6 @@
+4
+XLR_Gloeobacter Xlr__Leptolyngbya__UniRef90_A0A6H2NHV9 2639 179
+Xer__Fischerella__UniRef90_A0A2N6KA72 Xer__Calothrix__UniRef90_A0A930XBC0    1888 1600
+Cyr__Pseudanabaenaceae__UniRef90_A0A928V9X3 CyR_Calothrix -1   1900
+Cyhr__Pseudanabaena__UniRef90_A0A926ZYX4 Cyhr__Leptolyngbya__UniRef90_A0A0P4V0S4 -1   1900
+

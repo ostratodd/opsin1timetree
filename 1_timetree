@@ -1,0 +1,6 @@
+# Run PhyloBayes with time tree analysis
+
+#mpirun -np 8 pb_mpi -lg -ugam -d All_uniref_hits_ALN.pb -T All_uniref_hits_ALN.fa.treefile -cal opsin_calibration.txt -s timetree
+
+pb -bd -sb -ugam -lg -cat -d All_uniref_hits_ALN.pb -T All_uniref_hits_ALN.fa.treefile -cal opsin_calibration.txt -r outgroup.txt -rp 4510 2945 -f timetree
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+conda activate bioinf
+
+diamond blastp -d /home/emily.lau/manuscripts/brittlestar/uniref_databases/uniref50.fasta -q cyr.fasta -o cyr_ref50_blast -f 6 -k 50
+awk '{print $2}' cyr_ref50_blast | sort | uniq > cyr_ref50.txt
+seqkit grep -nrf cyr_ref50.txt /home/oakley/projects/uniref_dbs/uniref50.fasta > cyr_50.fa
+python modify_fa.py -i cyr_50.fa -o cyr_50b.fa -p Cyr

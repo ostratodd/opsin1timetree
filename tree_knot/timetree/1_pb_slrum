@@ -1,0 +1,31 @@
+#could not get pb to run on slurm. Analyzing on mac laptopn
+
+#!/bin/bash
+#SBATCH --job-name=phylobayes_timetree    # Job name
+#SBATCH --output=pb_output_%A_%a.out      # Standard output log
+#SBATCH --error=pb_error_%A_%a.err        # Standard error log
+#SBATCH --array=0-9                       # Array range, change this based on the number of jobs
+#SBATCH --ntasks=1                        # Run a single task
+#SBATCH --cpus-per-task=4                 # Number of CPU cores per task
+#SBATCH --mem=16G                         # Memory per node
+#SBATCH --time=5:00:00                   # Time limit hrs:min:sec
+#SBATCH --partition=batch                 # Partition to run in
+#SBATCH --mail-type=END,FAIL              # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=your.email@domain.com # Where to send mail
+
+# Load necessary modules (if applicable)
+#module load phylobayes
+
+# Activate the conda environment
+conda init
+conda activate bioinf
+
+# Run PhyloBayes with time tree analysis
+mpirun -np $SLURM_NTASKS pb_mpi -d ../All_uniref_hits_ALN.fa \
+       -T ../All_uniref_hits_ALN.fa.treefile \
+       -cal calibration.txt \
+       -r outgroup.txt \
+       -bd -sb -ugam -lg -cat \
+       -rp 4510 2945 \
+       -f ugam$SLURM_ARRAY_TASK_ID
+

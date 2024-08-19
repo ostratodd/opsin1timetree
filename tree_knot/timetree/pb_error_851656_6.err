@@ -1,0 +1,48 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+[node46:16530] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)
+
+
+mpirun -np <np> pb_mpi -d <datafile> [options] <chainname>
+	creates a new chain, sampling from the posterior distribution, conditional on specified data
+
+mpirun -np <np> pb_mpi <chainname>
+	starts an already existing chain
+
+	mpirun -np <np>     : number of parallel processes (should be at least 2)
+
+	-cat -dp            : infinite mixture (Dirichlet process) of equilibirium frequency profiles
+	-ncat <ncat>        : finite mixture of equilibirium frequency profiles
+	-catfix <pr>        : specifying a fixed pre-defined mixture of profiles
+
+	-lg                 : Le and Gascuel 2008
+	-wag                : Whelan and Goldman 2001
+	-jtt                : Jones, Taylor, Thornton 1992
+	-gtr                : general time reversible
+	-poisson            : Poisson matrix, all relative exchangeabilities equal to 1 (Felsenstein 1981)
+
+	-dgam <ncat>        : discrete gamma. ncat = number of categories (4 by default, 1 = uniform rates model)
+
+	-dc                 : excludes constant columns
+	-t <treefile>       : starts from specified tree
+	-T <treefile>       : chain run under fixed, specified tree
+
+	-x <every> <until>  : saving frequency, and chain length (until = -1 : forever)
+	-f                  : forcing checks
+	-s/-S               : -s : save all / -S : save only the trees
+
+
+see manual for details
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[55624,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

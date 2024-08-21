@@ -1,0 +1,785 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=683;
+	taxlabels
+	BR_Halobacterium[&!color=#ff0000]
+	Br__Actinomycetota__UR50_A0A938EPH0[&!color=#000000]
+	Br__Archaea__UR50_P02945[&!color=#000000]
+	Br__Archaea__UR50_P69051[&!color=#000000]
+	Br__Archaea__UR50_P94854[&!color=#000000]
+	Br__Archaea__UniRef90_V4ZQH6[&!color=#000000]
+	Br__Bacteria__UR50_A0A0D8ZW42[&!color=#000000]
+	Br__Chromera__UR50_A0A0G4G5F3[&!color=#000000]
+	Br__Cryptomonadales__UR50_A0A7S1DWA7[&!color=#000000]
+	Br__Cyanobacteriota__UR50_A0A252D874[&!color=#000000]
+	Br__Cyanobacteriota__UR50_A0A9X9ZA75[&!color=#000000]
+	Br__Daldinia__UR50_UPI00200731EA[&!color=#000000]
+	Br__Deinococcus__UR50_UPI00220D8E58[&!color=#000000]
+	Br__Dictyobacter__UR50_A0A402ATH3[&!color=#000000]
+	Br__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#000000]
+	Br__Halegenticoccus__UniRef90_UPI00100C2973[&!color=#000000]
+	Br__Haloarchaeobius__UniRef90_UPI00226DF6EF[&!color=#000000]
+	Br__Haloarculaceae__UR50_A0A3P3RCT8[&!color=#000000]
+	Br__Halobacteria__UR50_Q53496[&!color=#000000]
+	Br__Halobacteria__UR50_U1R2U7[&!color=#000000]
+	Br__Halobacteria__UR50_W0FWY1[&!color=#000000]
+	Br__Halobacteria__UniRef90_G0LFX8[&!color=#000000]
+	Br__Halobacteria__UniRef90_P29563[&!color=#000000]
+	Br__Halobacteria__UniRef90_P69051
+	Br__Halobacteriales__UR50_A0A2R6DJW3[&!color=#000000]
+	Br__Halobacteriales__UR50_A0A2R6JL35[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6GSY0[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6HQ15[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6J274[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6JS63[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6KGD7[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6LKP5[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A0A2R6LT28[&!color=#000000]
+	Br__Halobacteriales__UniRef90_A7U0U1[&!color=#000000]
+	Br__Halobacteriales__UniRef90_P94854
+	Br__Halobacterium__UR50_UPI0000110B77[&!color=#000000]
+	Br__Halobacterium__UniRef90_P02945
+	Br__Halobacterium__UniRef90_UPI0000110B77
+	Br__Halobacterium__UniRef90_UPI001F011AB0[&!color=#000000]
+	Br__Halobaculum__UniRef90_UPI001EFEF83C[&!color=#000000]
+	Br__Halobellus__UniRef90_A0A7J9SID8[&!color=#000000]
+	Br__Halobiforma__UniRef90_A0A1I1DPA8[&!color=#000000]
+	Br__Halobium__UniRef90_UPI002271B22C[&!color=#000000]
+	Br__Halogranum__UniRef90_A0A1H8RSA7[&!color=#000000]
+	Br__Halohasta__UR50_UPI0020A34ABF[&!color=#000000]
+	Br__Halohasta__UniRef90_UPI002110EEC8[&!color=#000000]
+	Br__Halolamina__UniRef90_UPI0022715CDC[&!color=#000000]
+	Br__Halomarina__UniRef90_UPI0020327DF1[&!color=#000000]
+	Br__Halomarina__UniRef90_UPI0026F40B8B[&!color=#000000]
+	Br__Haloplanus__UR50_A0A368NBE5[&!color=#000000]
+	Br__Haloplanus__UR50_A0A6B9F3Z3[&!color=#000000]
+	Br__Haloplanus__UniRef90_A0A6B9F3P5[&!color=#000000]
+	Br__Haloplanus__UniRef90_UPI000A5CE34D[&!color=#000000]
+	Br__Haloquadratum__UR50_Q18DH5[&!color=#000000]
+	Br__Halorientalis__UniRef90_A0A1G7PUC9[&!color=#000000]
+	Br__Halorientalis__UniRef90_A0A1G7RA78[&!color=#000000]
+	Br__Halorientalis__UniRef90_UPI001FF6B2B9[&!color=#000000]
+	Br__Halorientalis__UniRef90_UPI001FF6C9D7[&!color=#000000]
+	Br__Halorubrum__UR50_A0A4U7EYP1[&!color=#000000]
+	Br__Halorubrum__UniRef90_A0A3Q9EA60[&!color=#000000]
+	Br__Halorubrum__UniRef90_UPI0021111C71[&!color=#000000]
+	Br__Halorutilus__UR50_A0A9Q4C304[&!color=#000000]
+	Br__Halorutilus__UR50_A0A9Q4C3E6[&!color=#000000]
+	Br__Halostella__UniRef90_UPI000EF8332C[&!color=#000000]
+	Br__Halovenus__UR50_A0A6B0T5F9[&!color=#000000]
+	Br__Hemiselmis__UR50_A0A6T8IZ18[&!color=#000000]
+	Br__Hemiselmis__UR50_A0A7S0TWK7[&!color=#000000]
+	Br__Natrarchaeobaculum__UniRef90_A0A346PUS3[&!color=#000000]
+	Br__Natrialbaceae__UniRef90_M0CK77[&!color=#000000]
+	Br__Natronobeatus__UniRef90_UPI0020CDB3FE[&!color=#000000]
+	Br__Natronomonas__UniRef90_M1Y5I7[&!color=#000000]
+	Br__Natronomonas__UniRef90_UPI0020C975B2[&!color=#000000]
+	Br__Pseudanabaenaceae__UR50_A0A928YZN9[&!color=#ff0000]
+	Br__Rubricoccaceae__UR50_A0A271IU12[&!color=#000000]
+	Br__Rubrobacteraceae__UR50_Q1AUE6[&!color=#000000]
+	Br__Salinigranum__UniRef90_A0A2I8VEZ7[&!color=#000000]
+	Br__Salinilacihabitans__UniRef90_UPI0021140345[&!color=#000000]
+	Br__Salinirubrum__UniRef90_UPI001D07B5FE[&!color=#000000]
+	Br__Tetraselmis__UR50_A0A061RSZ0[&!color=#000000]
+	Br__Tetraselmis__UR50_A0A061S8L7[&!color=#000000]
+	Br__Tremellales__UR50_A0A5M6C708[&!color=#000000]
+	Br__Truepera__UR50_A0A6J4UQD4[&!color=#000000]
+	Br__Uncultured__UR50_I1X8N9[&!color=#000000]
+	Br__Uncultured__UR50_I1X8Q4[&!color=#000000]
+	Br__Uncultured__UniRef90_I1X958[&!color=#000000]
+	Br__Vitrella__UR50_A0A0G4FEK1[&!color=#000000]
+	Br__cellular__UR50_A0A7R9U5N0[&!color=#000000]
+	Br__cellular__UR50_S0ELR6[&!color=#000000]
+	Br__cellular__UR50_U5TVL7[&!color=#000000]
+	Br__cellular__UR50_U5TY47[&!color=#000000]
+	Br__halophilic__UR50_U1R431[&!color=#000000]
+	Br__leotiomyceta__UR50_M2MME4[&!color=#000000]
+	Br__unclassified__UR50_A0A2R6GG49[&!color=#000000]
+	Br__unclassified__UniRef90_A0A256HWP6[&!color=#000000]
+	Br__unclassified__UniRef90_A0A2R6GPV3[&!color=#000000]
+	Br__unclassified__UniRef90_A0A2R6LDY7[&!color=#000000]
+	Br__unclassified__UniRef90_A0A4U7F7H9[&!color=#000000]
+	Br__uncultured__UR50_A0A0S1WDR5[&!color=#000000]
+	Br__uncultured__UR50_A0A0S1WEI0[&!color=#000000]
+	Br__uncultured__UR50_D9MWK9[&!color=#000000]
+	Br__uncultured__UniRef90_V4Y792[&!color=#000000]
+	CyHR_Mastigocladopsis[&!color=#ff0000]
+	CyHR_Synechocystis[&!color=#000000]
+	CyR_Calothrix[&!color=#0000ff]
+	CyR_Phormidesmis[&!color=#000000]
+	CyR_Tolypothrix[&!color=#ff0000]
+	Cyhr__Actinomycetota__UR50_A0A938EPH0[&!color=#000000]
+	Cyhr__Actinomycetota__UR50_A0A9D8D7T8[&!color=#000000]
+	Cyhr__Actinomycetota__UniRef90_A0A938EPH0
+	Cyhr__Aliterella__UniRef90_A0A0D8ZW42
+	Cyhr__Alphaproteobacteria__UR50_A0A0P0YG33[&!color=#000000]
+	Cyhr__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#000000]
+	Cyhr__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#000000]
+	Cyhr__Archaea__UR50_P02945
+	Cyhr__Archaea__UR50_P69051[&!color=#000000]
+	Cyhr__Archaea__UR50_P94854[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A072NB13[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A0D8ZW42[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A1G1STR4[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A7Y3TU60[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A7Y3TUC4[&!color=#000000]
+	Cyhr__Bacteria__UR50_A0A966QHT7[&!color=#000000]
+	Cyhr__Bacteria__UniRef90_A0A7Y3TUC4[&!color=#000000]
+	Cyhr__Bacteria__UniRef90_A0A7Y3X9A8[&!color=#000000]
+	Cyhr__Bacteroidota__UR50_A0A1P9WTB2[&!color=#000000]
+	Cyhr__Chamaesiphon__UniRef90_K9UIK1[&!color=#000000]
+	Cyhr__Chroococcus__UniRef90_A0A8J2TRF2[&!color=#000000]
+	Cyhr__Cryptomonadales__UR50_A0A7S1DWA7[&!color=#000000]
+	Cyhr__Cryptophyceae__UR50_L1JTW1[&!color=#000000]
+	Cyhr__Cyanobacteria__UniRef90_A0A3D1PJK7[&!color=#000000]
+	Cyhr__Cyanobacteria__UniRef90_A0A926PVG5[&!color=#000000]
+	Cyhr__Cyanobacteriota__UR50_A0A252D874[&!color=#000000]
+	Cyhr__Cyanobacteriota__UR50_A0A2W4UKV5[&!color=#000000]
+	Cyhr__Cyanobacteriota__UR50_A0A9X9ZA75
+	Cyhr__Cyanobacteriota__UniRef90_A0A926PME7[&!color=#000000]
+	Cyhr__Cyanophyceae__UR50_A0A139X2U3[&!color=#000000]
+	Cyhr__Cyanophyceae__UniRef90_A0A0S3UBN8[&!color=#000000]
+	Cyhr__Cyanophyceae__UniRef90_A0A2W7AEB9[&!color=#000000]
+	Cyhr__Cyanophyceae__UniRef90_A0A9X9ZA75
+	Cyhr__Cyanophyceae__UniRef90_K9U0A8[&!color=#000000]
+	Cyhr__Cyanothece__UniRef90_B8HQU4[&!color=#000000]
+	Cyhr__Deinococcus__UR50_UPI00220D8E58[&!color=#000000]
+	Cyhr__Deinococcus__UniRef90_UPI00220D8E58
+	Cyhr__Dictyobacter__UR50_A0A402ATH3[&!color=#000000]
+	Cyhr__Erysiphaceae__UR50_A0A0B1P8N0[&!color=#000000]
+	Cyhr__Exobasidiomycetes__UR50_A0A316VHF9[&!color=#000000]
+	Cyhr__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#000000]
+	Cyhr__Gloeobacterales__UR50_A0A925XUD8[&!color=#000000]
+	Cyhr__Halobacteria__UR50_A0A125T1B2[&!color=#000000]
+	Cyhr__Halobacteria__UR50_A0A6G3ZG40[&!color=#000000]
+	Cyhr__Halobacteria__UR50_P42196[&!color=#000000]
+	Cyhr__Halobacteria__UR50_Q53496[&!color=#000000]
+	Cyhr__Halobacteria__UR50_U1R2U7[&!color=#000000]
+	Cyhr__Halobacteriales__UR50_A0A2R6DJW3[&!color=#000000]
+	Cyhr__Halobacterium__UR50_UPI0000110B77[&!color=#000000]
+	Cyhr__Halobellus__UR50_A0A498G7H5[&!color=#000000]
+	Cyhr__Haloferacales__UR50_U1P7Y5[&!color=#000000]
+	Cyhr__Halogranum__UniRef90_A0A1H8RSA7[&!color=#000000]
+	Cyhr__Halohasta__UR50_A0A1H6WB68[&!color=#000000]
+	Cyhr__Haloplanus__UR50_A0A368NBE5[&!color=#000000]
+	Cyhr__Haloplanus__UR50_A0A6B9FAL0[&!color=#000000]
+	Cyhr__Haloquadratum__UR50_Q18DH5[&!color=#000000]
+	Cyhr__Halorutilus__UR50_A0A9Q4C304[&!color=#000000]
+	Cyhr__Halorutilus__UR50_A0A9Q4C3E6[&!color=#000000]
+	Cyhr__Halovenus__UR50_A0A6B0T5F9[&!color=#000000]
+	Cyhr__Hassalia__UniRef90_A0A846HFU5[&!color=#000000]
+	Cyhr__Iningainema__UniRef90_UPI00192D4A90[&!color=#000000]
+	Cyhr__Ktedonobacterales__UR50_D6U1J0[&!color=#000000]
+	Cyhr__Leptolyngbya__UniRef90_A0A0P4V0S4[&!color=#ff0000]
+	Cyhr__Leptolyngbya__UniRef90_A0A2W4UKV5
+	Cyhr__Leptolyngbya__UniRef90_A0A926TVT6[&!color=#ff0000]
+	Cyhr__Leptolyngbya__UniRef90_A0A926UF78[&!color=#ff0000]
+	Cyhr__Leptolyngbya__UniRef90_A0A926ZAJ4[&!color=#ff0000]
+	Cyhr__Leptolyngbya__UniRef90_UPI000B5A185C[&!color=#ff0000]
+	Cyhr__Leptolyngbya__UniRef90_UPI002938D558[&!color=#ff0000]
+	Cyhr__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#000000]
+	Cyhr__Microcoleus__UniRef90_A0A926U182[&!color=#000000]
+	Cyhr__Monilinia__UR50_A0A5N6KJ15[&!color=#000000]
+	Cyhr__Myxosarcina__UniRef90_UPI000689B0F6[&!color=#000000]
+	Cyhr__Nodosilinea__UR50_UPI00293DA23B[&!color=#000000]
+	Cyhr__Nodosilinea__UniRef90_A0A8J7EM17[&!color=#000000]
+	Cyhr__Nostoc__UniRef90_A0A235I7A6[&!color=#000000]
+	Cyhr__Nostocaceae__UniRef90_A0A838VMV4[&!color=#000000]
+	Cyhr__Nostocales__UR50_UPI00192D4A90[&!color=#000000]
+	Cyhr__Nostocales__UniRef90_A0A0C2L739[&!color=#000000]
+	Cyhr__Nostocales__UniRef90_A0A252D874
+	Cyhr__Nostocales__UniRef90_A0A6I8WFQ3[&!color=#000000]
+	Cyhr__Oculatella__UR50_A0A8J6T594[&!color=#000000]
+	Cyhr__Oculatella__UniRef90_A0A8J6T594
+	Cyhr__Phialophora__UR50_A0A0D2FVJ8[&!color=#000000]
+	Cyhr__Phormidesmis__UniRef90_A0A2T1DCP3[&!color=#000000]
+	Cyhr__Phormidesmis__UniRef90_UPI00083B4DA5[&!color=#000000]
+	Cyhr__Phormidesmis__UniRef90_UPI0009442622[&!color=#000000]
+	Cyhr__Phormidium__UniRef90_A0A927EHN9[&!color=#000000]
+	Cyhr__Plectolyngbya__UniRef90_A0A951NX98[&!color=#000000]
+	Cyhr__Pleurocapsa__UniRef90_UPI0029C671DC[&!color=#000000]
+	Cyhr__Pseudanabaena__UniRef90_A0A926ZYX4[&!color=#ff0000]
+	Cyhr__Pseudanabaenaceae__UR50_A0A928YZN9[&!color=#ff0000]
+	Cyhr__Pseudanabaenaceae__UniRef90_A0A928V9X3[&!color=#ff0000]
+	Cyhr__Rubricoccaceae__UR50_A0A271IU12[&!color=#000000]
+	Cyhr__Rubricoccus__UniRef90_A0A259U296[&!color=#000000]
+	Cyhr__Rubrivirga__UniRef90_A0A271IU12
+	Cyhr__Rubrivirga__UniRef90_A0A271IYE2[&!color=#000000]
+	Cyhr__Rubrivirga__UniRef90_UPI0028C9517B[&!color=#000000]
+	Cyhr__Rubrobacter__UniRef90_Q1AUE6
+	Cyhr__Rubrobacteraceae__UR50_Q1AUE6[&!color=#000000]
+	Cyhr__Sphingomonas__UR50_A0A2A2SBC3[&!color=#000000]
+	Cyhr__Sphingomonas__UR50_UPI0015775044[&!color=#000000]
+	Cyhr__Taphrinales__UR50_R4XKS9[&!color=#000000]
+	Cyhr__Terrabacteria__UR50_A0A0P7YZ09[&!color=#000000]
+	Cyhr__Tetraselmis__UR50_A0A061S8L7[&!color=#000000]
+	Cyhr__Tolypothrix__UniRef90_A0A0C1N3L3[&!color=#000000]
+	Cyhr__Tolypothrix__UniRef90_A0A8S9SVI8[&!color=#000000]
+	Cyhr__Truepera__UR50_A0A6J4UQD4[&!color=#000000]
+	Cyhr__halophilic__UR50_U1R431[&!color=#000000]
+	Cyhr__root__UR50_A0A938EDB5[&!color=#000000]
+	Cyhr__unclassified__UR50_A0A2H2Y0M0[&!color=#000000]
+	Cyhr__unclassified__UR50_A0A2R6GG49[&!color=#000000]
+	Cyhr__unclassified__UniRef90_A0A252DUV9[&!color=#000000]
+	Cyhr__unclassified__UniRef90_A0A2H2Y0M0
+	Cyhr__unclassified__UniRef90_UPI0016884D19[&!color=#000000]
+	Cyhr__uncultured__UniRef90_A0A6J4UQD4
+	Cyhr__viral__UR50_A0A6C0APG5[&!color=#000000]
+	Cyr__Actinomycetes__UniRef90_A0A6I2VAT4[&!color=#000000]
+	Cyr__Actinomycetota__UR50_A0A938EPH0
+	Cyr__Actinomycetota__UR50_A0A9D8D7T8[&!color=#000000]
+	Cyr__Actinomycetota__UniRef90_A0A938EPH0
+	Cyr__Aliterella__UniRef90_A0A0D8ZW42
+	Cyr__Alphaproteobacteria__UR50_A0A502GBB7[&!color=#000000]
+	Cyr__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#000000]
+	Cyr__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#000000]
+	Cyr__Archaea__UR50_P02945
+	Cyr__Archaea__UR50_P69051
+	Cyr__Archaea__UR50_P94854
+	Cyr__Aureobasidium__UR50_A0A4T0DVF0[&!color=#000000]
+	Cyr__Bacillota__UR50_A0A6I0FE40[&!color=#000000]
+	Cyr__Bacteria__UR50_A0A0D8ZW42
+	Cyr__Bacteria__UR50_A0A966QHT7[&!color=#000000]
+	Cyr__Bacteria__UniRef90_A0A948WFJ8[&!color=#000000]
+	'Cyr__Bacteroidota/Chlorobiota__UR50_A0A259U1H3'[&!color=#000000]
+	Cyr__Candidatus__UR50_A0A924CI60[&!color=#000000]
+	Cyr__Candidatus__UR50_A0A924E4Y5[&!color=#000000]
+	Cyr__Candidatus__UR50_A0A924HUX2[&!color=#000000]
+	Cyr__Chamaesiphon__UniRef90_K9UIK1[&!color=#000000]
+	Cyr__Chroococcus__UniRef90_A0A8J2TRF2[&!color=#000000]
+	Cyr__Cryptomonadales__UR50_A0A7S1DWA7
+	Cyr__Cryptophyceae__UR50_A0A6T8GGP0[&!color=#000000]
+	Cyr__Cryptophyceae__UR50_L1J8F1[&!color=#000000]
+	Cyr__Cryptophyceae__UR50_L1JTW1[&!color=#000000]
+	Cyr__Cyanobacteria__UniRef90_A0A2T2RN81[&!color=#000000]
+	Cyr__Cyanobacteria__UniRef90_A0A3D1PJK7[&!color=#000000]
+	Cyr__Cyanobacteria__UniRef90_A0A926PVG5[&!color=#000000]
+	Cyr__Cyanobacteriota__UR50_A0A252D874
+	Cyr__Cyanobacteriota__UR50_A0A2W4UKV5[&!color=#000000]
+	Cyr__Cyanobacteriota__UR50_A0A9X9ZA75
+	Cyr__Cyanophyceae__UniRef90_A0A2W7AEB9[&!color=#000000]
+	Cyr__Cyanophyceae__UniRef90_A0A9X9ZA75
+	Cyr__Cyanothece__UniRef90_B8HQU4[&!color=#000000]
+	Cyr__Deinococcus__UR50_UPI00220D8E58
+	Cyr__Deinococcus__UniRef90_UPI00220D8E58
+	Cyr__Dictyobacter__UR50_A0A402ATH3
+	Cyr__Dictyobacter__UniRef90_A0A402ATH3
+	Cyr__Dictyobacter__UniRef90_A0A5J4KXN6[&!color=#000000]
+	Cyr__Dothideomycetes__UR50_N1Q8M8[&!color=#000000]
+	Cyr__Erysiphaceae__UR50_A0A0B1P8N0[&!color=#000000]
+	Cyr__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#000000]
+	Cyr__Gloeobacterales__UR50_A0A925XUD8[&!color=#000000]
+	Cyr__Halapricum__UR50_A0A897NL32[&!color=#000000]
+	Cyr__Halegenticoccus__UniRef90_UPI00100C2973[&!color=#000000]
+	Cyr__Haloarchaeobius__UniRef90_UPI00226DF6EF[&!color=#000000]
+	Cyr__Haloarchaeobius__UniRef90_UPI00226E43C4[&!color=#000000]
+	Cyr__Halobacteria__UR50_A0A125T1B2[&!color=#000000]
+	Cyr__Halobacteria__UR50_A0A6G3ZG40[&!color=#000000]
+	Cyr__Halobacteria__UR50_P42196[&!color=#000000]
+	Cyr__Halobacteria__UR50_Q53496
+	Cyr__Halobacteria__UR50_U1R2U7
+	Cyr__Halobacteria__UniRef90_A0A6B9F027[&!color=#000000]
+	Cyr__Halobacteriales__UR50_A0A2R6DJW3
+	Cyr__Halobacteriales__UniRef90_A0A2R6DJW3
+	Cyr__Halobacteriales__UniRef90_A0A2R6EJH4[&!color=#000000]
+	Cyr__Halobacteriales__UniRef90_A0A2R6F6G8[&!color=#000000]
+	Cyr__Halobacteriales__UniRef90_A0A2R6GS10[&!color=#000000]
+	Cyr__Halobacteriales__UniRef90_A0A2R6KGD7[&!color=#000000]
+	Cyr__Halobacterium__UR50_UPI0000110B77
+	Cyr__Halobaculum__UniRef90_A0A1M5UDZ8[&!color=#000000]
+	Cyr__Halobaculum__UniRef90_UPI0024C3D685[&!color=#000000]
+	Cyr__Halobiforma__UniRef90_A0A1I1DPA8[&!color=#000000]
+	Cyr__Halobiforma__UniRef90_A0A1P8LP89[&!color=#000000]
+	Cyr__Halobium__UniRef90_UPI002271B22C[&!color=#000000]
+	Cyr__Haloferacales__UniRef90_A0A4U7F5Q1[&!color=#000000]
+	Cyr__Haloferax__UniRef90_M0IDG5[&!color=#000000]
+	Cyr__Halogranum__UniRef90_A0A1H8RSA7
+	Cyr__Halohasta__UniRef90_UPI0020A583B9[&!color=#000000]
+	Cyr__Halolamina__UniRef90_UPI0022715CDC[&!color=#000000]
+	Cyr__Halomarina__UniRef90_UPI0020327DF1[&!color=#000000]
+	Cyr__Halomarina__UniRef90_UPI0026F40B8B[&!color=#000000]
+	Cyr__Haloplanus__UR50_A0A368NBE5
+	Cyr__Haloplanus__UR50_A0A6B9F3Z3[&!color=#000000]
+	Cyr__Haloplanus__UniRef90_UPI0020406A55[&!color=#000000]
+	Cyr__Haloquadratum__UR50_Q18DH5
+	Cyr__Halorientalis__UniRef90_UPI001FF15E48[&!color=#000000]
+	Cyr__Halorubrum__UniRef90_A0A329T627[&!color=#000000]
+	Cyr__Halorussus__UniRef90_UPI0010932F32[&!color=#000000]
+	Cyr__Halorussus__UniRef90_UPI001FB584AA[&!color=#000000]
+	Cyr__Halorussus__UniRef90_UPI0023E81FAE[&!color=#000000]
+	Cyr__Halorutilus__UR50_A0A9Q4C304
+	Cyr__Halorutilus__UR50_A0A9Q4C3E6
+	Cyr__Halostella__UniRef90_UPI000EF8332C[&!color=#000000]
+	Cyr__Hassalia__UniRef90_A0A846HFU5[&!color=#000000]
+	Cyr__Hemiselmis__UR50_A0A6T8IZ18[&!color=#000000]
+	Cyr__Klebsormidium__UR50_A0A1Y1HL70[&!color=#000000]
+	Cyr__Ktedonobacterales__UR50_D6U1J0[&!color=#000000]
+	Cyr__Leptolyngbya__UniRef90_A0A926UF78[&!color=#ff0000]
+	Cyr__Leptolyngbya__UniRef90_A0A926ZAJ4[&!color=#ff0000]
+	Cyr__Leptolyngbya__UniRef90_UPI000B5A185C[&!color=#ff0000]
+	Cyr__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#000000]
+	Cyr__Microcoleus__UniRef90_A0A926U182[&!color=#000000]
+	Cyr__Mixia__UR50_G7DX39[&!color=#000000]
+	Cyr__Monilinia__UR50_A0A5N6KJ15[&!color=#000000]
+	Cyr__Mycobacteriaceae__UniRef90_A0A9E2K851[&!color=#000000]
+	Cyr__Natrarchaeobaculum__UniRef90_A0A346PUS3[&!color=#000000]
+	Cyr__Natrialbaceae__UniRef90_M0CK77[&!color=#000000]
+	Cyr__Natrialbaceae__UniRef90_O93740[&!color=#000000]
+	Cyr__Natribaculum__UniRef90_UPI0022466372[&!color=#000000]
+	Cyr__Natrinema__UniRef90_A0A7D5GSH5[&!color=#000000]
+	Cyr__Natronobeatus__UniRef90_UPI0020CDB3FE[&!color=#000000]
+	Cyr__Nodosilinea__UR50_UPI00293DA23B[&!color=#000000]
+	Cyr__Nodosilinea__UniRef90_A0A8J7EM17[&!color=#000000]
+	Cyr__Nostoc__UniRef90_A0A235I7A6[&!color=#000000]
+	Cyr__Nostocaceae__UniRef90_A0A838VMV4[&!color=#000000]
+	Cyr__Nostocales__UniRef90_A0A0C2L739[&!color=#000000]
+	Cyr__Nostocales__UniRef90_A0A252D874
+	Cyr__Nostocales__UniRef90_A0A6I8WFQ3[&!color=#000000]
+	Cyr__Oculatella__UR50_A0A8J6T594[&!color=#000000]
+	Cyr__Phialophora__UR50_A0A0D2FVJ8[&!color=#000000]
+	Cyr__Phormidesmis__UniRef90_A0A2T1DCP3[&!color=#000000]
+	Cyr__Phormidesmis__UniRef90_UPI00083B4DA5[&!color=#000000]
+	Cyr__Phormidesmis__UniRef90_UPI0009442622
+	Cyr__Pleosporomycetidae__UR50_A0A1Y1YWQ8[&!color=#000000]
+	Cyr__Pleurocapsa__UniRef90_UPI0029C671DC[&!color=#000000]
+	Cyr__Pseudanabaena__UniRef90_A0A926ZYX4[&!color=#ff0000]
+	Cyr__Pseudanabaenaceae__UR50_A0A928YZN9
+	Cyr__Pseudanabaenaceae__UniRef90_A0A928V9X3[&!color=#ff0000]
+	Cyr__Pseudanabaenaceae__UniRef90_A0A928YZN9
+	Cyr__Pucciniales__UR50_F4S3M3[&!color=#000000]
+	Cyr__Rubricoccaceae__UR50_A0A271IU12
+	Cyr__Rubrobacter__UR50_UPI0009FD7C88[&!color=#000000]
+	Cyr__Rubrobacter__UniRef90_Q1AUE6
+	Cyr__Rubrobacteraceae__UR50_Q1AUE6
+	Cyr__Salinigranum__UniRef90_A0A2I8VEZ7[&!color=#000000]
+	Cyr__Salinigranum__UniRef90_A0A2I8VP32[&!color=#000000]
+	Cyr__Salinilacihabitans__UniRef90_UPI0021140345[&!color=#000000]
+	Cyr__Salinirubellus__UniRef90_A0A9E7U421[&!color=#000000]
+	Cyr__Salinirubrum__UniRef90_UPI001D05D8F0[&!color=#000000]
+	Cyr__Solirubrobacterales__UniRef90_A0A7V8ZIZ4[&!color=#000000]
+	Cyr__Sphingomonas__UR50_A0A2A2SBC3[&!color=#000000]
+	Cyr__Stachybotrys__UR50_A0A084B629[&!color=#000000]
+	Cyr__Taphrinales__UR50_R4XKS9[&!color=#000000]
+	Cyr__Terrabacteria__UR50_A0A1L3MLR8[&!color=#000000]
+	Cyr__Terrabacteria__UR50_A0A3R9M9T5[&!color=#000000]
+	Cyr__Tetraselmis__UR50_A0A061S8L7
+	Cyr__Tolypothrix__UniRef90_A0A0C1N3L3[&!color=#000000]
+	Cyr__Tolypothrix__UniRef90_A0A218QMM7[&!color=#000000]
+	Cyr__Tolypothrix__UniRef90_A0A8S9SVI8[&!color=#000000]
+	Cyr__Trebouxiophyceae__UR50_I0YUS5[&!color=#000000]
+	Cyr__Truepera__UR50_A0A6J4UQD4
+	Cyr__Truepera__UR50_D7CXV3[&!color=#000000]
+	Cyr__Vitrella__UR50_A0A0G4FEK1[&!color=#000000]
+	Cyr__Xylaria__UR50_A0A553HJD1[&!color=#000000]
+	Cyr__cellular__UR50_U5TVL7[&!color=#000000]
+	Cyr__cellular__UR50_U5TY47[&!color=#000000]
+	Cyr__halophilic__UR50_U1R431
+	Cyr__leotiomyceta__UR50_A0A6A6BBW8[&!color=#000000]
+	Cyr__unclassified__UR50_A0A2H2Y0M0[&!color=#000000]
+	Cyr__unclassified__UniRef90_A0A252DUV9[&!color=#000000]
+	Cyr__unclassified__UniRef90_A0A2H2Y0M0
+	Cyr__unclassified__UniRef90_A0A2R6J4F0[&!color=#000000]
+	Cyr__unclassified__UniRef90_A0A2R6K7R7[&!color=#000000]
+	Cyr__unclassified__UniRef90_UPI0016884D19[&!color=#000000]
+	Cyr__unclassified__UniRef90_UPI00240609FF[&!color=#000000]
+	PR_proteobacterium[&!color=#000000]
+	Pr__Alphaproteobacteria__UR50_A0A2S6S8D0[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J1ZYC7[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2AET9[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2AJI1[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2B126[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2B494[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2BIV1[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2BL17[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2EIM1[&!color=#000000]
+	Pr__Amoebophrya__UR50_A0A8J2FIQ1[&!color=#000000]
+	Pr__Bacillales__UR50_B1YFV8[&!color=#000000]
+	Pr__Bacteria__UR50_A0A944STQ0[&!color=#000000]
+	Pr__Bacteria__UR50_A1YC49[&!color=#000000]
+	Pr__Bacteria__UniRef90_A0A1L2YW54[&!color=#000000]
+	Pr__Bacteria__UniRef90_A0A1L2YWF0[&!color=#000000]
+	Pr__Bacteria__UniRef90_A0A2E9EAN5[&!color=#000000]
+	Pr__Bacteria__UniRef90_J4KSW5[&!color=#000000]
+	Pr__Bacteroidota__UR50_A0A3B8TP96[&!color=#000000]
+	Pr__Bacteroidota__UR50_A0A923YXG2[&!color=#000000]
+	Pr__Betaproteobacteria__UniRef90_A0A6M9PKU4[&!color=#000000]
+	Pr__Burkholderiales__UniRef90_A0A976DY32[&!color=#000000]
+	Pr__Candidatus__UR50_A0A328QTJ8[&!color=#000000]
+	Pr__Dehalococcoidia__UR50_A0A2E4TFN6[&!color=#000000]
+	Pr__Flavobacteriales__UR50_A0A2E1W4H2[&!color=#000000]
+	Pr__Gammaproteobacteria__UR50_A0A2D7BW64[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A1Z9LH41[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E1F7G8[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E1J3J0[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E1J3Y9[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E2D3E2[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E4HPT1[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A2E8KSB6[&!color=#000000]
+	Pr__Gammaproteobacteria__UniRef90_A0A3S5JK93[&!color=#000000]
+	Pr__Hymenobacter__UR50_A0A4Z0PQC2[&!color=#000000]
+	Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6[&!color=#000000]
+	Pr__Opitutae__UniRef90_A0A2G4HKE5[&!color=#000000]
+	Pr__PVC__UR50_A0A2A2Q7A6[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A6H2HDR0[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A6N9REK5[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A7Y0BWA7[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A923W2B8[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A924GUJ9[&!color=#000000]
+	Pr__Polaromonas__UniRef90_A0A924HFX7[&!color=#000000]
+	Pr__Polynucleobacter__UniRef90_A0A254Q1M6[&!color=#000000]
+	Pr__Polynucleobacter__UniRef90_A0A2M8VQ78[&!color=#000000]
+	Pr__Polynucleobacter__UniRef90_UPI001BFEBAA1[&!color=#000000]
+	Pr__Pseudomonadota__UR50_A0A5J6N178[&!color=#000000]
+	Pr__Pseudomonadota__UniRef90_A0A0R2UEA1[&!color=#000000]
+	Pr__Pseudomonadota__UniRef90_A0A944UJK0[&!color=#000000]
+	Pr__Rhodoferax__UniRef90_UPI0025D0EA5D[&!color=#000000]
+	Pr__SAR86__UniRef90_A0A520MXC4[&!color=#000000]
+	Pr__SAR86__UniRef90_A0A520N6G6[&!color=#000000]
+	Pr__SAR86__UniRef90_A0A937M2P1[&!color=#000000]
+	Pr__Verrucomicrobiales__UR50_A0A2E2HQ20[&!color=#000000]
+	Pr__Verrucomicrobiota__UR50_A0A355S5S5[&!color=#000000]
+	Pr__Woeseiaceae__UniRef90_A0A2E8TNK7[&!color=#000000]
+	Pr__root__UR50_A0A093W7X4[&!color=#000000]
+	Pr__root__UR50_A0A0R2UEA1[&!color=#000000]
+	Pr__root__UR50_A0A1L2YW38[&!color=#000000]
+	Pr__root__UR50_A0A1L2YW73[&!color=#000000]
+	Pr__root__UR50_A0A1L2YWB0[&!color=#000000]
+	Pr__root__UR50_A0A1Z9IZG4[&!color=#000000]
+	Pr__root__UR50_A0A1Z9SCU5[&!color=#000000]
+	Pr__root__UR50_A0A1Z9VEM7[&!color=#000000]
+	Pr__root__UR50_A0A2D5G8E2[&!color=#000000]
+	Pr__root__UR50_A0A2D6ZW67[&!color=#000000]
+	Pr__root__UR50_A0A2D7UAZ4[&!color=#000000]
+	Pr__root__UR50_A0A2D9XFY8[&!color=#000000]
+	Pr__root__UR50_A0A2E1TKR7[&!color=#000000]
+	Pr__root__UR50_A0A2E3ZFL2[&!color=#000000]
+	Pr__root__UR50_A0A2E5KJU8[&!color=#000000]
+	Pr__root__UR50_A0A2E9IIC4[&!color=#000000]
+	Pr__root__UR50_A0A2E9L3M5[&!color=#000000]
+	Pr__root__UR50_A0A916YX99[&!color=#000000]
+	Pr__root__UR50_A0A920FU87[&!color=#000000]
+	Pr__root__UR50_A8QLQ3[&!color=#000000]
+	Pr__root__UR50_B7S3I0[&!color=#000000]
+	Pr__root__UR50_C0KTK1[&!color=#000000]
+	Pr__root__UR50_Q6J4G7[&!color=#000000]
+	Pr__root__UR50_Q9AFF7[&!color=#000000]
+	Pr__root__UniRef90_A0A1L2YW14[&!color=#000000]
+	Pr__root__UniRef90_A0A1L2YW34[&!color=#000000]
+	Pr__root__UniRef90_A0A1L2YW57[&!color=#000000]
+	Pr__root__UniRef90_A0A1L2YWB0[&!color=#000000]
+	Pr__root__UniRef90_A0A2E2ZER7[&!color=#000000]
+	Pr__root__UniRef90_A0A2E8A7X9[&!color=#000000]
+	Pr__root__UniRef90_A0A520TL11[&!color=#000000]
+	Pr__root__UniRef90_A1YC78[&!color=#000000]
+	Pr__root__UniRef90_Q4PNF2[&!color=#000000]
+	Pr__root__UniRef90_Q6J4G7[&!color=#000000]
+	Pr__root__UniRef90_Q6PL05[&!color=#000000]
+	Pr__root__UniRef90_Q9AFF7[&!color=#000000]
+	Pr__root__UniRef90_V4YT71[&!color=#000000]
+	Pr__unclassified__UR50_A0A8J2AJK3[&!color=#000000]
+	Pr__unclassified__UR50_A0A8J2F610[&!color=#000000]
+	Pr__unclassified__UniRef90_A0A258U1R2[&!color=#000000]
+	Pr__uncultured__UniRef90_A0A1L2YW20[&!color=#000000]
+	Pr__uncultured__UniRef90_A8QLU9[&!color=#000000]
+	Pr__uncultured__UniRef90_Q83TJ3[&!color=#000000]
+	Pr__uncultured__UniRef90_Q84C21[&!color=#000000]
+	XLR_Gloeobacter[&!color=#996633]
+	XeR_Nostoc[&!color=#000000]
+	Xer__Actinomycetes__UR50_A0A1H6XB79[&!color=#000000]
+	Xer__Actinomycetota__UR50_A0A938EPH0
+	Xer__Aliterella__UniRef90_A0A0D8ZMP0[&!color=#000000]
+	Xer__Alphaproteobacteria__UR50_A0A502GBB7[&!color=#000000]
+	Xer__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#000000]
+	Xer__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#000000]
+	Xer__Anabaena__UniRef90_UPI001681BA92[&!color=#000000]
+	Xer__Archaea__UR50_P69051
+	Xer__Archaea__UR50_P94854
+	Xer__Bacillota__UR50_A0A6I0FE40[&!color=#000000]
+	Xer__Bacteria__UR50_A0A072NB13[&!color=#000000]
+	Xer__Bacteria__UR50_A0A0D8ZW42
+	Xer__Bacteria__UR50_A0A1G1STR4[&!color=#000000]
+	Xer__Bacteria__UR50_A0A271IX38[&!color=#000000]
+	Xer__Bacteria__UR50_A0A519SK79[&!color=#000000]
+	Xer__Bacteria__UR50_A0A966QHT7[&!color=#000000]
+	'Xer__Bacteroidota/Chlorobiota__UR50_A0A259U1H3'[&!color=#000000]
+	Xer__Bacteroidota__UR50_A0A1P9WTB2[&!color=#000000]
+	Xer__Calothrix__UniRef90_A0A930XBC0[&!color=#0000ff]
+	Xer__Candidatus__UR50_A0A924E4Y5[&!color=#000000]
+	Xer__Candidatus__UR50_A0A924HUX2[&!color=#000000]
+	Xer__Chamaesiphon__UniRef90_K9UDV6[&!color=#000000]
+	Xer__Chamaesiphon__UniRef90_UPI001FE7BDD5[&!color=#000000]
+	Xer__Chlorogloeopsis__UniRef90_A0A433NPX7[&!color=#000000]
+	Xer__Chlorogloeopsis__UniRef90_UPI0025AA4827[&!color=#000000]
+	Xer__Chroococcidiopsis__UniRef90_A0A2P8QWW1[&!color=#000000]
+	Xer__Chroococcidiopsis__UniRef90_K9U4X1[&!color=#000000]
+	Xer__Cyanobacteria__UniRef90_A0A350XF02[&!color=#000000]
+	Xer__Cyanobacteria__UniRef90_A0A926PY22[&!color=#000000]
+	Xer__Cyanobacteria__UniRef90_A0A926SLQ3[&!color=#000000]
+	Xer__Cyanobacteriota__UR50_A0A252D874
+	Xer__Cyanobacteriota__UniRef90_A0A927ENI9[&!color=#000000]
+	Xer__Cyanophyceae__UniRef90_A0A8J7FVH2[&!color=#000000]
+	Xer__Cyanophyceae__UniRef90_K9XIR7[&!color=#000000]
+	Xer__Cyanothece__UR50_B8HWV7[&!color=#000000]
+	Xer__Deinococcus__UR50_UPI00146FA852[&!color=#000000]
+	Xer__Deinococcus__UR50_UPI00220D8E58
+	Xer__Dictyobacter__UR50_A0A402ATH3
+	Xer__Dulcicalothrix__UniRef90_A0A3S1AGP4[&!color=#0000ff]
+	Xer__Fischerella__UR50_UPI0025C16FD1[&!color=#0000ff]
+	Xer__Fischerella__UniRef90_A0A2N6KA72[&!color=#0000ff]
+	Xer__Gloeobacterales__UR50_A0A925XUD8[&!color=#000000]
+	Xer__Gloeocapsopsis__UniRef90_A0A2G7GF90[&!color=#000000]
+	Xer__Gloeocapsopsis__UniRef90_A0A6N8G1P5[&!color=#000000]
+	Xer__Gloeothece__UniRef90_B7KKH0[&!color=#000000]
+	Xer__Gonapodya__UR50_A0A139AI58[&!color=#000000]
+	Xer__Halobacteria__UR50_A0A6G3ZG40[&!color=#ff8000]
+	Xer__Halobacteria__UR50_Q53496
+	Xer__Halobacteria__UR50_U1R2U7
+	Xer__Halobacteriales__UR50_A0A2R6DJW3
+	Xer__Hymenobacter__UR50_A0A7H0GW45[&!color=#000000]
+	Xer__Hyphomicrobiales__UR50_A0A4Q2U3N5[&!color=#000000]
+	Xer__Komarekiella__UniRef90_A0AA40SV90[&!color=#000000]
+	Xer__Leptolyngbya__UniRef90_A0A5Q4E204[&!color=#ff0000]
+	Xer__Leptolyngbya__UniRef90_A0A926UDI1[&!color=#ff0000]
+	Xer__Leptolyngbya__UniRef90_A0A926V7J7[&!color=#ff0000]
+	Xer__Leptolyngbya__UniRef90_UPI0021F24B09[&!color=#ff0000]
+	Xer__Leptolyngbyaceae__UniRef90_A0A2W4TRN2[&!color=#ff0000]
+	Xer__Leptolyngbyaceae__UniRef90_A0A968UBD0[&!color=#ff0000]
+	Xer__Leptolyngbyaceae__UniRef90_A0A969KQC5[&!color=#ff0000]
+	Xer__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#000000]
+	Xer__Methylobacteriaceae__UR50_A0A0C6F7V1[&!color=#000000]
+	Xer__Micromonosporaceae__UR50_A0A1Q4ZQH2[&!color=#000000]
+	Xer__Myxacorys__UniRef90_A0A8J8CI44[&!color=#000000]
+	Xer__Nodosilinea__UniRef90_A0AA97EF24[&!color=#000000]
+	Xer__Nodosilinea__UniRef90_UPI0023B27A9D[&!color=#000000]
+	Xer__Nostoc__UniRef90_UPI0016870F7A[&!color=#000000]
+	Xer__Nostocaceae__UniRef90_Q8YSC4[&!color=#000000]
+	Xer__Oculatella__UR50_A0A8J6T594[&!color=#ff8000]
+	Xer__Oculatella__UniRef90_A0A8J7EW44[&!color=#000000]
+	Xer__Oscillatoria__UniRef90_A0A926X8P0[&!color=#000000]
+	Xer__Paeniclostridium__UR50_A0A0C7PQA0[&!color=#000000]
+	Xer__Pegethrix__UniRef90_A0A951P8X6[&!color=#000000]
+	Xer__Phormidesmis__UniRef90_A0A0P7YZ09
+	Xer__Phormidium__UniRef90_UPI0016846037[&!color=#000000]
+	Xer__Plectonema__UniRef90_A0A8J7FDH7[&!color=#000000]
+	Xer__Pontibacter__UR50_A0A923N570[&!color=#000000]
+	Xer__Pseudomonadota__UR50_A0A0Q4L756[&!color=#000000]
+	Xer__Rubrobacter__UR50_UPI0009FD7C88[&!color=#000000]
+	Xer__Rubrobacteraceae__UR50_Q1AUE6
+	Xer__Sphingomonas__UR50_A0A2A2SBC3[&!color=#000000]
+	Xer__Sphingomonas__UR50_UPI0015775044[&!color=#000000]
+	Xer__Synechococcales__UniRef90_A0A930XI48[&!color=#000000]
+	Xer__Terrabacteria__UR50_A0A0P7YZ09[&!color=#000000]
+	Xer__Terrabacteria__UR50_A0A1L3MLR8[&!color=#000000]
+	Xer__Terrabacteria__UR50_A0A3R9M9T5[&!color=#000000]
+	Xer__Thermocoleostomius__UniRef90_A0A9E8ZCC3[&!color=#000000]
+	Xer__Trichocoleus__UniRef90_A0A8J7B835[&!color=#000000]
+	Xer__Trichocoleus__UniRef90_UPI0025B4A839[&!color=#000000]
+	Xer__Truepera__UR50_A0A6J4UQD4
+	Xer__Truepera__UR50_D7CXV3[&!color=#000000]
+	Xer__filamentous__UniRef90_A0A2P8W550[&!color=#000000]
+	Xer__filamentous__UniRef90_A0A2T2W344[&!color=#000000]
+	Xer__root__UR50_A0A938EDB5[&!color=#000000]
+	Xer__unclassified__UR50_A0A2H2Y0M0[&!color=#ff8000]
+	Xer__unclassified__UniRef90_A0A1Z4IC28[&!color=#000000]
+	Xer__unclassified__UniRef90_A0A2H2XBQ5[&!color=#000000]
+	Xer__unclassified__UniRef90_A0A8J7EH67[&!color=#000000]
+	Xer__unclassified__UniRef90_A0A969FFI9[&!color=#000000]
+	Xer__unclassified__UniRef90_UPI00286B4FBA[&!color=#000000]
+	Xlr__Actinobacteria__UR50_A0A0J0YNF8[&!color=#000000]
+	Xlr__Actinomycetes__UR50_A0A6J4KT46[&!color=#000000]
+	Xlr__Actinomycetota__UR50_A0A3M0G769[&!color=#000000]
+	Xlr__Actinomycetota__UR50_A0A7K0YYK2[&!color=#000000]
+	Xlr__Allomeiothermus__UniRef90_UPI0023F38943[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A1L2YW04[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A1L2YWA8[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A2E3NLK8[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A2E7UR14[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A3L7VYY9[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A6L6E9R4[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A958E829[&!color=#000000]
+	Xlr__Bacteria__UR50_A0A9E1QVR0[&!color=#000000]
+	Xlr__Bacteroidota__UniRef90_A0A3M2FMH9[&!color=#000000]
+	Xlr__Balneola__UR50_A0A2D7AG78[&!color=#000000]
+	Xlr__Bdellovibrio__UniRef90_A0A923V7B8[&!color=#000000]
+	Xlr__Bdellovibrio__UniRef90_A0A924B300[&!color=#000000]
+	Xlr__Bellilinea__UR50_A0A0P6XBM7[&!color=#000000]
+	Xlr__Candidatus__UniRef90_A0A923XRS8[&!color=#000000]
+	Xlr__Chloroflexota__UR50_A0A3L7YRV8[&!color=#000000]
+	Xlr__Chloroflexota__UniRef90_A0A6L9IXQ0[&!color=#000000]
+	Xlr__Cyanobacteria__UniRef90_A0A969T0G4[&!color=#000000]
+	Xlr__Cyanophyceae__UniRef90_A0A2W7ARY7[&!color=#000000]
+	Xlr__Cyanophyceae__UniRef90_A0A8J7JTD9[&!color=#000000]
+	Xlr__Cyanophyceae__UniRef90_A0A8T6QQF4[&!color=#000000]
+	Xlr__Deinococcales__UniRef90_A0A924RR09[&!color=#000000]
+	Xlr__Deinococcus__UR50_A0A172T7E0[&!color=#000000]
+	Xlr__Deinococcus__UR50_A0A7X1NVD0[&!color=#000000]
+	Xlr__Deinococcus__UR50_UPI0025F3DD2E[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_A0A172TD44[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_A0A1U7NV99[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_A0A2K3UTP4[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_A0A917PC33[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_A0A918CFF3[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_UPI001C63F925[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_UPI001ED8D96D[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_UPI0025F8D0E5[&!color=#000000]
+	Xlr__Deinococcus__UniRef90_UPI002869BBA0[&!color=#000000]
+	Xlr__Deltaproteobacteria__UniRef90_A0A2D4SQ06[&!color=#000000]
+	Xlr__Deltaproteobacteria__UniRef90_A0A2E7UR14[&!color=#000000]
+	Xlr__Dinophyceae__UR50_A0A7S4GN37[&!color=#000000]
+	Xlr__Frankiaceae__UniRef90_A0A924NQ99[&!color=#000000]
+	Xlr__Gammaproteobacteria__UR50_UPI00190F65E4[&!color=#000000]
+	Xlr__Gloeobacter__UniRef90_Q7NP59
+	Xlr__Gracilibacteria__UniRef90_A0A968T6V2[&!color=#000000]
+	Xlr__Halomicronema__UniRef90_UPI0021030F7B[&!color=#000000]
+	Xlr__Halothece__UniRef90_K9YEI2[&!color=#000000]
+	Xlr__Leptolyngbya__UniRef90_A0A6H2NHV9[&!color=#ff0000]
+	Xlr__Leptolyngbya__UniRef90_A0A925M2S9[&!color=#ff0000]
+	Xlr__Leptolyngbya__UniRef90_U9W0I1[&!color=#ff0000]
+	Xlr__Leptolyngbyaceae__UniRef90_K8GTY7[&!color=#ff0000]
+	Xlr__Meiothermus__UniRef90_A0A370JXE9[&!color=#000000]
+	Xlr__Meiothermus__UniRef90_UPI000408B316[&!color=#000000]
+	Xlr__Meiothermus__UniRef90_UPI0005667CA7[&!color=#000000]
+	Xlr__Microbacterium__UR50_UPI001E4742A9[&!color=#000000]
+	Xlr__Micrococcales__UR50_A0A1R3VVE3[&!color=#000000]
+	Xlr__Myxococcales__UniRef90_A0A2E7ZR97[&!color=#000000]
+	Xlr__Oligoflexia__UniRef90_A0A923U6H7[&!color=#000000]
+	Xlr__Oligoflexia__UniRef90_A0A924SSG2[&!color=#000000]
+	Xlr__Phormidesmis__UniRef90_UPI000A475A3D[&!color=#000000]
+	Xlr__Phototrophicales__UR50_A0A2M8NK29[&!color=#000000]
+	Xlr__Planctomycetaceae__UR50_A0A2E7EFI9[&!color=#000000]
+	Xlr__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0[&!color=#000000]
+	Xlr__Pseudomonadota__UR50_A3JEZ3[&!color=#000000]
+	Xlr__Rhodothermales__UniRef90_A0A9D8YSH6[&!color=#000000]
+	Xlr__Roseiflexaceae__UniRef90_A0A926CB40[&!color=#000000]
+	Xlr__Salisaeta__UniRef90_UPI0003B640DC[&!color=#000000]
+	Xlr__Sar__UR50_A0A813H5L3[&!color=#000000]
+	Xlr__Symploca__UniRef90_A0A845YHD9[&!color=#000000]
+	Xlr__Terrabacteria__UR50_A0A2P8WHZ5[&!color=#000000]
+	Xlr__Terrabacteria__UR50_A0A2W7ARY7[&!color=#000000]
+	Xlr__Terrabacteria__UR50_A0A8J7JWR5[&!color=#000000]
+	Xlr__Thermaceae__UniRef90_A0A931EK09[&!color=#000000]
+	Xlr__Trueperaceae__UniRef90_A0A5Q4G3V2[&!color=#000000]
+	Xlr__Williamsia__UniRef90_UPI001BDAAC7A[&!color=#000000]
+	Xlr__cellular__UR50_A0A7S2RIV1[&!color=#000000]
+	Xlr__cellular__UR50_A0A813J0W5[&!color=#000000]
+	Xlr__filamentous__UniRef90_A0A2P8WHZ5[&!color=#000000]
+	Xlr__root__UR50_A0A0R2R0Q7[&!color=#000000]
+	Xlr__root__UR50_A0A1E8CRE3[&!color=#000000]
+	Xlr__root__UR50_A0A3G9A0S2[&!color=#000000]
+	Xlr__root__UR50_A0A4P5SJD2[&!color=#000000]
+	Xlr__root__UR50_A0A6I2VA48[&!color=#000000]
+	Xlr__root__UR50_A0A6I2ZCL4[&!color=#000000]
+	Xlr__root__UR50_A0A6I3GA03[&!color=#000000]
+	Xlr__root__UR50_A0A6J7BKN6[&!color=#000000]
+	Xlr__root__UR50_A0A6J7E014[&!color=#000000]
+	Xlr__root__UR50_A0A7G8WQ84[&!color=#000000]
+	Xlr__root__UR50_A0A7K1AQL8[&!color=#000000]
+	Xlr__root__UR50_A0A8T6QQF4[&!color=#000000]
+	Xlr__root__UR50_A0A923YTK2[&!color=#000000]
+	Xlr__root__UR50_A0A9D7FV15[&!color=#000000]
+	Xlr__root__UR50_E8QX23[&!color=#000000]
+	Xlr__root__UR50_Q7NP59[&!color=#000000]
+	Xlr__unclassified__UR50_A0A2T2UZL0[&!color=#000000]
+	Xlr__unclassified__UniRef90_A0A969FEC7[&!color=#000000]
+	Xlr__unclassified__UniRef90_A5UXH7[&!color=#000000]
+	Xlr__unclassified__UniRef90_UPI001E3E6221[&!color=#000000]
+	Xlr__uncultured__UR50_A0A6J4S2K6[&!color=#000000]
+	Xlr__uncultured__UR50_UPI0028E77A7F[&!color=#000000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((Pr__root__UR50_A0A1Z9VEM7[&!color=#996633]:429.841354,Pr__Flavobacteriales__UR50_A0A2E1W4H2[&!color=#996633]:429.841354)[&!color=#996633]:429.841354,(Pr__root__UR50_A0A920FU87[&!color=#996633]:429.841354,Pr__Pseudomonadota__UR50_A0A5J6N178[&!color=#996633]:429.841354)[&!color=#996633]:429.841354)[&!color=#996633]:429.841354,(((((Pr__root__UR50_A0A2E9L3M5[&!color=#996633]:214.920677,Pr__root__UR50_A0A2D5G8E2[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,Pr__root__UR50_A0A1Z9IZG4[&!color=#996633]:429.841354)[&!color=#996633]:214.920677,Pr__root__UR50_A0A1L2YW73[&!color=#996633]:644.762031)[&!color=#996633]:214.920677,Pr__root__UR50_A0A093W7X4[&!color=#996633]:859.682708)[&!color=#996633]:214.920677,Pr__Alphaproteobacteria__UR50_A0A2S6S8D0[&!color=#996633]:1074.603385)[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,Pr__root__UR50_A0A2E1TKR7[&!color=#996633]:1504.44474)[&!color=#996633]:214.920677,(((((((Pr__root__UR50_B7S3I0[&!color=#996633]:214.920677,Pr__root__UniRef90_Q4PNF2[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,Pr__Bacteria__UniRef90_A0A1L2YWF0[&!color=#996633]:429.841354)[&!color=#996633]:214.920677,Pr__root__UR50_A0A2D7UAZ4[&!color=#996633]:644.762031)[&!color=#996633]:214.920677,Pr__Opitutae__UniRef90_A0A2G4HKE5[&!color=#996633]:859.682708)[&!color=#996633]:214.920677,((((Pr__Burkholderiales__UniRef90_A0A976DY32[&!color=#996633]:214.920677,Pr__Rhodoferax__UniRef90_UPI0025D0EA5D[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,((Pr__Polaromonas__UniRef90_A0A923W2B8[&!color=#996633]:143.280451,Pr__Polaromonas__UniRef90_A0A6H2HDR0[&!color=#996633]:143.280451)[&!color=#996633]:143.280451,(Pr__Polaromonas__UniRef90_A0A6N9REK5[&!color=#996633]:143.280451,Pr__root__UniRef90_V4YT71[&!color=#996633]:143.280451)[&!color=#996633]:143.280451)[&!color=#996633]:143.280451)[&!color=#996633]:214.920677,(((Pr__Polaromonas__UniRef90_A0A924HFX7[&!color=#996633]:161.190508,(Pr__Polaromonas__UniRef90_A0A7Y0BWA7[&!color=#996633]:80.595254,Pr__Polaromonas__UniRef90_A0A924GUJ9[&!color=#996633]:80.595254)[&!color=#996633]:80.595254)[&!color=#996633]:161.190508,Pr__unclassified__UniRef90_A0A258U1R2[&!color=#996633]:322.381016)[&!color=#996633]:161.190508,Pr__Polynucleobacter__UniRef90_A0A2M8VQ78[&!color=#996633]:483.571523)[&!color=#996633]:161.190508)[&!color=#996633]:214.920677,((Pr__Polynucleobacter__UniRef90_A0A254Q1M6[&!color=#996633]:286.560903,Pr__Polynucleobacter__UniRef90_UPI001BFEBAA1[&!color=#996633]:286.560903)[&!color=#996633]:286.560903,Pr__Betaproteobacteria__UniRef90_A0A6M9PKU4[&!color=#996633]:573.121806)[&!color=#996633]:286.560903)[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,Pr__Bacteria__UR50_A0A944STQ0[&!color=#996633]:1289.524062)[&!color=#996633]:214.920677,Pr__uncultured__UniRef90_Q83TJ3[&!color=#996633]:1504.44474)[&!color=#996633]:214.920677)[&!color=#996633]:214.920677,((((((((((PR_proteobacterium[&!color=#996633]:175.84419,(Pr__root__UR50_Q6J4G7[&!color=#996633]:87.922095,Pr__root__UniRef90_Q6J4G7[&!color=#996633]:87.922095)[&!color=#996633]:87.922095)[&!color=#996633]:175.84419,(Pr__root__UniRef90_A1YC78[&!color=#996633]:175.84419,Pr__uncultured__UniRef90_A8QLU9[&!color=#996633]:175.84419)[&!color=#996633]:175.84419)[&!color=#996633]:175.84419,Pr__uncultured__UniRef90_Q84C21[&!color=#996633]:527.532571)[&!color=#996633]:175.84419,(((((Pr__root__UR50_Q9AFF7[&!color=#996633]:117.22946,Pr__root__UniRef90_Q9AFF7[&!color=#996633]:117.22946)[&!color=#996633]:117.22946,Pr__Bacteria__UniRef90_A0A1L2YW54[&!color=#996633]:234.458921)[&!color=#996633]:117.22946,(Pr__uncultured__UniRef90_A0A1L2YW20[&!color=#996633]:175.84419,(Pr__root__UniRef90_A0A1L2YW14[&!color=#996633]:87.922095,Pr__Gammaproteobacteria__UniRef90_A0A1Z9LH41[&!color=#996633]:87.922095)[&!color=#996633]:87.922095)[&!color=#996633]:175.84419)[&!color=#996633]:117.22946,Pr__root__UniRef90_Q6PL05[&!color=#996633]:468.917841)[&!color=#996633]:117.22946,Pr__SAR86__UniRef90_A0A937M2P1[&!color=#996633]:586.147301)[&!color=#996633]:117.22946)[&!color=#996633]:175.84419,((Pr__Gammaproteobacteria__UniRef90_A0A2E1J3J0[&!color=#996633]:293.073651,Pr__Gammaproteobacteria__UniRef90_A0A2E1J3Y9[&!color=#996633]:293.073651)[&!color=#996633]:293.073651,Pr__Bacteria__UniRef90_J4KSW5[&!color=#996633]:586.147301)[&!color=#996633]:293.073651)[&!color=#996633]:175.84419,((Pr__root__UR50_A0A1L2YWB0[&!color=#996633]:351.688381,Pr__root__UniRef90_A0A1L2YWB0[&!color=#996633]:351.688381)[&!color=#996633]:351.688381,((Pr__Gammaproteobacteria__UniRef90_A0A2E8KSB6[&!color=#996633]:234.458921,Pr__Gammaproteobacteria__UniRef90_A0A2E4HPT1[&!color=#996633]:234.458921)[&!color=#996633]:234.458921,(Pr__root__UniRef90_A0A2E2ZER7[&!color=#996633]:234.458921,Pr__root__UniRef90_A0A520TL11[&!color=#996633]:234.458921)[&!color=#996633]:234.458921)[&!color=#996633]:234.458921)[&!color=#996633]:351.688381)[&!color=#996633]:175.84419,Pr__Pseudomonadota__UniRef90_A0A944UJK0[&!color=#996633]:1230.909332)[&!color=#996633]:175.84419,(((Pr__root__UR50_A0A0R2UEA1[&!color=#996633]:351.688381,Pr__Pseudomonadota__UniRef90_A0A0R2UEA1[&!color=#996633]:351.688381)[&!color=#996633]:351.688381,Pr__Gammaproteobacteria__UniRef90_A0A3S5JK93[&!color=#996633]:703.376761)[&!color=#996633]:351.688381,Pr__Woeseiaceae__UniRef90_A0A2E8TNK7[&!color=#996633]:1055.065142)[&!color=#996633]:351.688381)[&!color=#996633]:175.84419,(Pr__Hyphomicrobiales__UniRef90_A0A2E1CNU6[&!color=#996633]:791.298857,Pr__Gammaproteobacteria__UniRef90_A0A2E2D3E2[&!color=#996633]:791.298857)[&!color=#996633]:791.298857)[&!color=#996633]:175.84419,((((((Pr__root__UR50_A0A1L2YW38[&!color=#996633]:251.205986,Pr__Gammaproteobacteria__UniRef90_A0A2E1F7G8[&!color=#996633]:251.205986)[&!color=#996633]:251.205986,Pr__SAR86__UniRef90_A0A520N6G6[&!color=#996633]:502.411972)[&!color=#996633]:251.205986,(Pr__root__UR50_A0A2D6ZW67[&!color=#996633]:376.808979,Pr__SAR86__UniRef90_A0A520MXC4[&!color=#996633]:376.808979)[&!color=#996633]:376.808979)[&!color=#996633]:251.205986,Pr__root__UR50_A8QLQ3[&!color=#996633]:1004.823945)[&!color=#996633]:251.205986,Pr__root__UniRef90_A0A1L2YW57[&!color=#996633]:1256.029931)[&!color=#996633]:251.205986,Pr__root__UniRef90_A0A1L2YW34[&!color=#996633]:1507.235917)[&!color=#996633]:251.205986)[&!color=#996633]:175.84419)[&!color=#996633]:175.84419,(Pr__Verrucomicrobiales__UR50_A0A2E2HQ20[&!color=#996633]:1055.065142,(Pr__Bacteria__UniRef90_A0A2E9EAN5[&!color=#996633]:527.532571,Pr__root__UniRef90_A0A2E8A7X9[&!color=#996633]:527.532571)[&!color=#996633]:527.532571)[&!color=#996633]:1055.065142)[&!color=#996633]:175.84419,((((Pr__Amoebophrya__UR50_A0A8J2EIM1[&!color=#996633]:457.194895,Pr__Amoebophrya__UR50_A0A8J2BIV1[&!color=#996633]:457.194895)[&!color=#996633]:457.194895,(((Pr__Amoebophrya__UR50_A0A8J2AJI1[&!color=#996633]:228.597447,Pr__Amoebophrya__UR50_A0A8J2B126[&!color=#996633]:228.597447)[&!color=#996633]:228.597447,((Pr__Amoebophrya__UR50_A0A8J2FIQ1[&!color=#996633]:152.398298,Pr__Amoebophrya__UR50_A0A8J2BL17[&!color=#996633]:152.398298)[&!color=#996633]:152.398298,Pr__Amoebophrya__UR50_A0A8J1ZYC7[&!color=#996633]:304.796597)[&!color=#996633]:152.398298)[&!color=#996633]:228.597447,(Pr__Amoebophrya__UR50_A0A8J2B494[&!color=#996633]:342.896171,Pr__Amoebophrya__UR50_A0A8J2AET9[&!color=#996633]:342.896171)[&!color=#996633]:342.896171)[&!color=#996633]:228.597447)[&!color=#996633]:457.194895,(Pr__root__UR50_A0A2E3ZFL2[&!color=#996633]:685.792342,Pr__root__UR50_A0A2E9IIC4[&!color=#996633]:685.792342)[&!color=#996633]:685.792342)[&!color=#996633]:457.194895,(Pr__unclassified__UR50_A0A8J2F610[&!color=#996633]:914.38979,Pr__unclassified__UR50_A0A8J2AJK3[&!color=#996633]:914.38979)[&!color=#996633]:914.38979)[&!color=#996633]:457.194895)[&!color=#996633]:175.84419,Pr__root__UR50_A0A2D9XFY8[&!color=#996633]:2461.818665)[&!color=#996633]:175.84419,Pr__Gammaproteobacteria__UR50_A0A2D7BW64[&!color=#996633]:2637.662855)[&!color=#996633]:175.84419,(Pr__root__UR50_A0A2E5KJU8[&!color=#996633]:1406.753523,Pr__Dehalococcoidia__UR50_A0A2E4TFN6[&!color=#996633]:1406.753523)[&!color=#996633]:1406.753523)[&!color=#996633]:175.84419,((Pr__root__UR50_A0A916YX99[&!color=#996633]:996.450412,(((Pr__root__UR50_C0KTK1[&!color=#996633]:249.112603,Pr__Bacteroidota__UR50_A0A923YXG2[&!color=#996633]:249.112603)[&!color=#996633]:249.112603,(Pr__Bacteroidota__UR50_A0A3B8TP96[&!color=#996633]:249.112603,Pr__Bacteria__UR50_A1YC49[&!color=#996633]:249.112603)[&!color=#996633]:249.112603)[&!color=#996633]:249.112603,Pr__root__UR50_A0A1Z9SCU5[&!color=#996633]:747.337809)[&!color=#996633]:249.112603)[&!color=#996633]:996.450412,(Pr__Hymenobacter__UR50_A0A4Z0PQC2[&!color=#996633]:996.450412,Pr__Candidatus__UR50_A0A328QTJ8[&!color=#996633]:996.450412)[&!color=#996633]:996.450412)[&!color=#996633]:996.450412)[&!color=#996633]:175.84419,((Pr__PVC__UR50_A0A2A2Q7A6[&!color=#996633]:1055.065142,Pr__Verrucomicrobiota__UR50_A0A355S5S5[&!color=#996633]:1055.065142)[&!color=#996633]:1055.065142,Pr__Bacillales__UR50_B1YFV8[&!color=#996633]:2110.130284)[&!color=#996633]:1055.065142)[&!color=#996633]:175.84419,(((((((((((((XLR_Gloeobacter[&!color=#00ff00]:111.368652,Xlr__Gloeobacter__UniRef90_Q7NP59[&!color=#00ff00]:111.368652)[&!color=#00ff00]:111.368652,Xlr__root__UR50_Q7NP59[&!color=#00ff00]:222.737304)[&!color=#00ff00]:111.368652,(((Xlr__Terrabacteria__UR50_A0A2W7ARY7[&!color=#00ff00]:83.526489,Xlr__Cyanophyceae__UniRef90_A0A2W7ARY7[&!color=#00ff00]:83.526489)[&!color=#00ff00]:83.526489,(Xlr__Cyanobacteria__UniRef90_A0A969T0G4[&!color=#00ff00]:83.526489,(Xlr__Phormidesmis__UniRef90_UPI000A475A3D[&!color=#00ff00]:41.763244,Xlr__Leptolyngbya__UniRef90_A0A925M2S9[&!color=#00ff00]:41.763244)[&!color=#00ff00]:41.763244)[&!color=#00ff00]:83.526489)[&!color=#00ff00]:83.526489,Xlr__unclassified__UniRef90_A0A969FEC7[&!color=#00ff00]:250.579467)[&!color=#00ff00]:83.526489)[&!color=#00ff00]:111.368652,(((((Xlr__root__UR50_A0A8T6QQF4[&!color=#00ff00]:74.245768,Xlr__Cyanophyceae__UniRef90_A0A8T6QQF4[&!color=#00ff00]:74.245768)[&!color=#00ff00]:74.245768,Xlr__Halomicronema__UniRef90_UPI0021030F7B[&!color=#00ff00]:148.491536)[&!color=#00ff00]:74.245768,Xlr__Symploca__UniRef90_A0A845YHD9[&!color=#00ff00]:222.737304)[&!color=#00ff00]:74.245768,((Xlr__Terrabacteria__UR50_A0A2P8WHZ5[&!color=#00ff00]:98.994357,Xlr__filamentous__UniRef90_A0A2P8WHZ5[&!color=#00ff00]:98.994357)[&!color=#00ff00]:98.994357,Xlr__Halothece__UniRef90_K9YEI2[&!color=#00ff00]:197.988715)[&!color=#00ff00]:98.994357)[&!color=#00ff00]:74.245768,Xlr__Cyanophyceae__UniRef90_A0A8J7JTD9[&!color=#00ff00]:371.22884)[&!color=#00ff00]:74.245768)[&!color=#00ff00]:111.368652,(Xlr__Leptolyngbya__UniRef90_U9W0I1[&!color=#00ff00]:278.42163,(Xlr__Leptolyngbya__UniRef90_A0A6H2NHV9[&!color=#00ff00]:139.210815,Xlr__Leptolyngbyaceae__UniRef90_K8GTY7[&!color=#00ff00]:139.210815)[&!color=#00ff00]:139.210815)[&!color=#00ff00]:278.42163)[&!color=#00ff00]:309.355151,(Xlr__Deinococcus__UniRef90_A0A172TD44[&!color=#996633]:433.099205,(((Xlr__Deinococcus__UniRef90_A0A917PC33[&!color=#996633]:108.274801,Xlr__Deinococcus__UniRef90_A0A918CFF3[&!color=#996633]:108.274801)[&!color=#996633]:108.274801,Xlr__Deinococcus__UniRef90_UPI001C63F925[&!color=#996633]:216.549603)[&!color=#996633]:108.274801,Xlr__Deinococcus__UniRef90_UPI0025F8D0E5[&!color=#996633]:324.824404)[&!color=#996633]:108.274801)[&!color=#996633]:433.099205)[&!color=#996633]:309.355151,((((Xlr__root__UR50_A0A1E8CRE3[&!color=#996633]:235.110712,Xlr__root__UR50_A0A7G8WQ84[&!color=#996633]:235.110712)[&!color=#996633]:235.110712,Xlr__Frankiaceae__UniRef90_A0A924NQ99[&!color=#996633]:470.221425)[&!color=#996633]:235.110712,(((Xlr__root__UR50_A0A4P5SJD2[&!color=#996633]:176.333034,Xlr__root__UR50_A0A9D7FV15[&!color=#996633]:176.333034)[&!color=#996633]:176.333034,(Xlr__root__UR50_A0A6I3GA03[&!color=#996633]:176.333034,Xlr__root__UR50_A0A6J7E014[&!color=#996633]:176.333034)[&!color=#996633]:176.333034)[&!color=#996633]:176.333034,((Xlr__root__UR50_A0A3G9A0S2[&!color=#996633]:176.333034,(Xlr__Micrococcales__UR50_A0A1R3VVE3[&!color=#996633]:88.166517,Xlr__Microbacterium__UR50_UPI001E4742A9[&!color=#996633]:88.166517)[&!color=#996633]:88.166517)[&!color=#996633]:176.333034,Xlr__Williamsia__UniRef90_UPI001BDAAC7A[&!color=#996633]:352.666068)[&!color=#996633]:176.333034)[&!color=#996633]:176.333034)[&!color=#996633]:235.110712,(((Xlr__root__UR50_A0A6J7BKN6[&!color=#996633]:235.110712,Xlr__root__UR50_A0A6I2ZCL4[&!color=#996633]:235.110712)[&!color=#996633]:235.110712,Xlr__Actinomycetota__UR50_A0A7K0YYK2[&!color=#996633]:470.221425)[&!color=#996633]:235.110712,(Xlr__Bacteria__UR50_A0A6L6E9R4[&!color=#996633]:352.666068,Xlr__root__UR50_A0A7K1AQL8[&!color=#996633]:352.666068)[&!color=#996633]:352.666068)[&!color=#996633]:235.110712)[&!color=#996633]:235.110712)[&!color=#996633]:309.355151,(((((Xlr__Deinococcus__UniRef90_A0A1U7NV99[&!color=#996633]:247.484785,Xlr__Deinococcus__UniRef90_UPI001ED8D96D[&!color=#996633]:247.484785)[&!color=#996633]:247.484785,Xlr__Deinococcus__UniRef90_UPI002869BBA0[&!color=#996633]:494.969571)[&!color=#996633]:247.484785,Xlr__unclassified__UniRef90_UPI001E3E6221[&!color=#996633]:742.454356)[&!color=#996633]:247.484785,Xlr__Deinococcus__UniRef90_A0A2K3UTP4[&!color=#996633]:989.939141)[&!color=#996633]:247.484785,Xlr__Deinococcales__UniRef90_A0A924RR09[&!color=#996633]:1237.423927)[&!color=#996633]:247.484785)[&!color=#996633]:309.355151,(Xlr__Gracilibacteria__UniRef90_A0A968T6V2[&!color=#996633]:897.131931,(Xlr__Roseiflexaceae__UniRef90_A0A926CB40[&!color=#996633]:448.565966,Xlr__unclassified__UniRef90_A5UXH7[&!color=#996633]:448.565966)[&!color=#996633]:448.565966)[&!color=#996633]:897.131931)[&!color=#996633]:309.355151,(((((Xlr__Terrabacteria__UR50_A0A8J7JWR5[&!color=#996633]:350.603169,Xlr__Bellilinea__UR50_A0A0P6XBM7[&!color=#996633]:350.603169)[&!color=#996633]:350.603169,Xlr__Actinomycetes__UR50_A0A6J4KT46[&!color=#996633]:701.206338)[&!color=#996633]:350.603169,Xlr__Trueperaceae__UniRef90_A0A5Q4G3V2[&!color=#996633]:1051.809507)[&!color=#996633]:350.603169,(Xlr__Chloroflexota__UR50_A0A3L7YRV8[&!color=#996633]:701.206338,(Xlr__Actinobacteria__UR50_A0A0J0YNF8[&!color=#996633]:350.603169,Xlr__root__UR50_A0A6I2VA48[&!color=#996633]:350.603169)[&!color=#996633]:350.603169)[&!color=#996633]:701.206338)[&!color=#996633]:350.603169,((((Xlr__Bacteria__UR50_A0A3L7VYY9[&!color=#996633]:350.603169,((Xlr__Oligoflexia__UniRef90_A0A924SSG2[&!color=#996633]:116.867723,Xlr__Oligoflexia__UniRef90_A0A923U6H7[&!color=#996633]:116.867723)[&!color=#996633]:116.867723,(Xlr__Pseudobdellovibrionaceae__UniRef90_A0A924ZXQ0[&!color=#996633]:116.867723,(Xlr__Bdellovibrio__UniRef90_A0A923V7B8[&!color=#996633]:58.433861,Xlr__Bdellovibrio__UniRef90_A0A924B300[&!color=#996633]:58.433861)[&!color=#996633]:58.433861)[&!color=#996633]:116.867723)[&!color=#996633]:116.867723)[&!color=#996633]:350.603169,(Xlr__Bacteria__UR50_A0A958E829[&!color=#996633]:350.603169,Xlr__Candidatus__UniRef90_A0A923XRS8[&!color=#996633]:350.603169)[&!color=#996633]:350.603169)[&!color=#996633]:350.603169,((((Xlr__Bacteria__UR50_A0A2E7UR14[&!color=#996633]:210.361901,Xlr__Deltaproteobacteria__UniRef90_A0A2E7UR14[&!color=#996633]:210.361901)[&!color=#996633]:210.361901,Xlr__Deltaproteobacteria__UniRef90_A0A2D4SQ06[&!color=#996633]:420.723803)[&!color=#996633]:210.361901,Xlr__Myxococcales__UniRef90_A0A2E7ZR97[&!color=#996633]:631.085704)[&!color=#996633]:210.361901,(Xlr__Phototrophicales__UR50_A0A2M8NK29[&!color=#996633]:420.723803,Xlr__Chloroflexota__UniRef90_A0A6L9IXQ0[&!color=#996633]:420.723803)[&!color=#996633]:420.723803)[&!color=#996633]:210.361901)[&!color=#996633]:350.603169,(((Xlr__Bacteria__UR50_A0A1L2YWA8[&!color=#996633]:350.603169,Xlr__Balneola__UR50_A0A2D7AG78[&!color=#996633]:350.603169)[&!color=#996633]:350.603169,(Xlr__Salisaeta__UniRef90_UPI0003B640DC[&!color=#996633]:350.603169,Xlr__Bacteroidota__UniRef90_A0A3M2FMH9[&!color=#996633]:350.603169)[&!color=#996633]:350.603169)[&!color=#996633]:350.603169,Xlr__Rhodothermales__UniRef90_A0A9D8YSH6[&!color=#996633]:1051.809507)[&!color=#996633]:350.603169)[&!color=#996633]:350.603169)[&!color=#996633]:350.603169)[&!color=#996633]:309.355151,(Xlr__unclassified__UR50_A0A2T2UZL0[&!color=#996633]:1206.487082,((Xlr__Meiothermus__UniRef90_A0A370JXE9[&!color=#996633]:402.162361,(Xlr__Meiothermus__UniRef90_UPI0005667CA7[&!color=#996633]:201.08118,Xlr__Meiothermus__UniRef90_UPI000408B316[&!color=#996633]:201.08118)[&!color=#996633]:201.08118)[&!color=#996633]:402.162361,(Xlr__Thermaceae__UniRef90_A0A931EK09[&!color=#996633]:402.162361,Xlr__Allomeiothermus__UniRef90_UPI0023F38943[&!color=#996633]:402.162361)[&!color=#996633]:402.162361)[&!color=#996633]:402.162361)[&!color=#996633]:1206.487082)[&!color=#996633]:309.355151,(((Xlr__Deinococcus__UR50_A0A172T7E0[&!color=#996633]:680.582329,Xlr__Deinococcus__UR50_A0A7X1NVD0[&!color=#996633]:680.582329)[&!color=#996633]:680.582329,Xlr__Deinococcus__UR50_UPI0025F3DD2E[&!color=#996633]:1361.164657)[&!color=#996633]:680.582329,Xlr__Planctomycetaceae__UR50_A0A2E7EFI9[&!color=#996633]:2041.746986)[&!color=#996633]:680.582329)[&!color=#996633]:309.355151,((Xlr__root__UR50_E8QX23[&!color=#996633]:1010.561489,(((((Xlr__Bacteria__UR50_A0A1L2YW04[&!color=#996633]:168.426915,(Xlr__Gammaproteobacteria__UR50_UPI00190F65E4[&!color=#996633]:84.213457,Xlr__Pseudomonadota__UR50_A3JEZ3[&!color=#996633]:84.213457)[&!color=#996633]:84.213457)[&!color=#996633]:168.426915,(Xlr__uncultured__UR50_A0A6J4S2K6[&!color=#996633]:168.426915,(Xlr__uncultured__UR50_UPI0028E77A7F[&!color=#996633]:84.213457,Xlr__root__UR50_A0A923YTK2[&!color=#996633]:84.213457)[&!color=#996633]:84.213457)[&!color=#996633]:168.426915)[&!color=#996633]:168.426915,Xlr__Bacteria__UR50_A0A9E1QVR0[&!color=#996633]:505.280744)[&!color=#996633]:168.426915,(Xlr__cellular__UR50_A0A7S2RIV1[&!color=#996633]:336.85383,((Xlr__cellular__UR50_A0A813J0W5[&!color=#996633]:112.28461,Xlr__Sar__UR50_A0A813H5L3[&!color=#996633]:112.28461)[&!color=#996633]:112.28461,Xlr__Dinophyceae__UR50_A0A7S4GN37[&!color=#996633]:224.56922)[&!color=#996633]:112.28461)[&!color=#996633]:336.85383)[&!color=#996633]:168.426915,Xlr__Bacteria__UR50_A0A2E3NLK8[&!color=#996633]:842.134574)[&!color=#996633]:168.426915)[&!color=#996633]:1010.561489,(Xlr__root__UR50_A0A0R2R0Q7[&!color=#996633]:1010.561489,Xlr__Actinomycetota__UR50_A0A3M0G769[&!color=#996633]:1010.561489)[&!color=#996633]:1010.561489)[&!color=#996633]:1010.561489)[&!color=#996633]:309.355151)[&!color=#996633]:309.355151,(((((((((((((CyR_Phormidesmis[&!color=#00ff00]:372.314347,Cyr__Phormidesmis__UniRef90_UPI0009442622[&!color=#00ff00]:372.314347)[&!color=#00ff00]:372.314347,Cyhr__Phormidesmis__UniRef90_UPI0009442622[&!color=#00ff00]:744.628694)[&!color=#00ff00]:372.314347,((((CyR_Tolypothrix[&!color=#00ff00]:191.23173,Cyr__Tolypothrix__UniRef90_A0A218QMM7[&!color=#00ff00]:191.23173)[&!color=#00ff00]:191.23173,(Cyhr__Nostocaceae__UniRef90_A0A838VMV4[&!color=#00ff00]:191.23173,Cyr__Nostocaceae__UniRef90_A0A838VMV4[&!color=#00ff00]:191.23173)[&!color=#00ff00]:191.23173)[&!color=#00ff00]:191.23173,((((Br__Pseudanabaenaceae__UR50_A0A928YZN9[&!color=#00ff00]:114.739038,Cyr__Pseudanabaenaceae__UR50_A0A928YZN9[&!color=#00ff00]:114.739038)[&!color=#00ff00]:114.739038,Cyr__Pseudanabaenaceae__UniRef90_A0A928YZN9[&!color=#00ff00]:229.478076)[&!color=#00ff00]:114.739038,Cyhr__Pseudanabaenaceae__UR50_A0A928YZN9[&!color=#00ff00]:344.217114)[&!color=#00ff00]:114.739038,(Cyhr__Pseudanabaenaceae__UniRef90_A0A928V9X3[&!color=#00ff00]:229.478076,Cyr__Pseudanabaenaceae__UniRef90_A0A928V9X3[&!color=#00ff00]:229.478076)[&!color=#00ff00]:229.478076)[&!color=#00ff00]:114.739038)[&!color=#00ff00]:191.23173,((CyR_Calothrix[&!color=#00ff00]:254.97564,(((((Br__Cyanobacteriota__UR50_A0A252D874[&!color=#00ff00]:42.49594,Cyr__Nostocales__UniRef90_A0A252D874[&!color=#00ff00]:42.49594)[&!color=#00ff00]:42.49594,Xer__Cyanobacteriota__UR50_A0A252D874[&!color=#00ff00]:84.99188)[&!color=#00ff00]:42.49594,Cyhr__Nostocales__UniRef90_A0A252D874[&!color=#00ff00]:127.48782)[&!color=#00ff00]:42.49594,Cyr__Cyanobacteriota__UR50_A0A252D874[&!color=#00ff00]:169.98376)[&!color=#00ff00]:42.49594,Cyhr__Cyanobacteriota__UR50_A0A252D874[&!color=#00ff00]:212.4797)[&!color=#00ff00]:42.49594)[&!color=#00ff00]:254.97564,(Cyhr__Tolypothrix__UniRef90_A0A8S9SVI8[&!color=#00ff00]:254.97564,Cyr__Tolypothrix__UniRef90_A0A8S9SVI8[&!color=#00ff00]:254.97564)[&!color=#00ff00]:254.97564)[&!color=#00ff00]:254.97564)[&!color=#00ff00]:352.01612)[&!color=#00ff00]:352.01612,(Cyhr__Pleurocapsa__UniRef90_UPI0029C671DC[&!color=#00ff00]:734.479581,Cyr__Pleurocapsa__UniRef90_UPI0029C671DC[&!color=#00ff00]:734.479581)[&!color=#00ff00]:734.479581)[&!color=#00ff00]:352.01612,Cyr__Cyanobacteria__UniRef90_A0A2T2RN81[&!color=#00ff00]:1820.975281)[&!color=#00ff00]:352.01612,((((((((CyHR_Mastigocladopsis[&!color=#00ff00]:139.024101,(Cyhr__Nostocales__UniRef90_A0A6I8WFQ3[&!color=#00ff00]:69.512051,Cyr__Nostocales__UniRef90_A0A6I8WFQ3[&!color=#00ff00]:69.512051)[&!color=#00ff00]:69.512051)[&!color=#00ff00]:139.024101,((Cyhr__Nostocales__UniRef90_A0A0C2L739[&!color=#00ff00]:92.682734,Cyr__Nostocales__UniRef90_A0A0C2L739[&!color=#00ff00]:92.682734)[&!color=#00ff00]:92.682734,(Cyhr__Tolypothrix__UniRef90_A0A0C1N3L3[&!color=#00ff00]:92.682734,Cyr__Tolypothrix__UniRef90_A0A0C1N3L3[&!color=#00ff00]:92.682734)[&!color=#00ff00]:92.682734)[&!color=#00ff00]:92.682734)[&!color=#00ff00]:139.024101,((((((((Cyhr__unclassified__UR50_A0A2H2Y0M0[&!color=#00ff00]:46.341367,Cyr__unclassified__UniRef90_A0A2H2Y0M0[&!color=#00ff00]:46.341367)[&!color=#00ff00]:46.341367,Xer__unclassified__UR50_A0A2H2Y0M0[&!color=#00ff00]:92.682734)[&!color=#00ff00]:46.341367,Cyhr__unclassified__UniRef90_A0A2H2Y0M0[&!color=#00ff00]:139.024101)[&!color=#00ff00]:46.341367,Cyr__unclassified__UR50_A0A2H2Y0M0[&!color=#00ff00]:185.365468)[&!color=#00ff00]:46.341367,(Cyhr__Nostocales__UR50_UPI00192D4A90[&!color=#00ff00]:115.853418,Cyhr__Iningainema__UniRef90_UPI00192D4A90[&!color=#00ff00]:115.853418)[&!color=#00ff00]:115.853418)[&!color=#00ff00]:46.341367,(Cyhr__Nostoc__UniRef90_A0A235I7A6[&!color=#00ff00]:139.024101,Cyr__Nostoc__UniRef90_A0A235I7A6[&!color=#00ff00]:139.024101)[&!color=#00ff00]:139.024101)[&!color=#00ff00]:46.341367,(Cyhr__unclassified__UniRef90_A0A252DUV9[&!color=#00ff00]:162.194785,Cyr__unclassified__UniRef90_A0A252DUV9[&!color=#00ff00]:162.194785)[&!color=#00ff00]:162.194785)[&!color=#00ff00]:46.341367,Cyhr__Cyanophyceae__UR50_A0A139X2U3[&!color=#00ff00]:370.730937)[&!color=#00ff00]:46.341367)[&!color=#00ff00]:139.024101,((Cyhr__Cyanophyceae__UniRef90_K9U0A8[&!color=#00ff00]:185.365468,(Cyhr__Cyanobacteria__UniRef90_A0A3D1PJK7[&!color=#00ff00]:92.682734,Cyr__Cyanobacteria__UniRef90_A0A3D1PJK7[&!color=#00ff00]:92.682734)[&!color=#00ff00]:92.682734)[&!color=#00ff00]:185.365468,(Cyhr__Hassalia__UniRef90_A0A846HFU5[&!color=#00ff00]:185.365468,Cyr__Hassalia__UniRef90_A0A846HFU5[&!color=#00ff00]:185.365468)[&!color=#00ff00]:185.365468)[&!color=#00ff00]:185.365468)[&!color=#00ff00]:139.024101,(((((((CyHR_Synechocystis[&!color=#00ff00]:86.890063,Cyhr__Cyanophyceae__UniRef90_A0A9X9ZA75[&!color=#00ff00]:86.890063)[&!color=#00ff00]:86.890063,Cyr__Cyanophyceae__UniRef90_A0A9X9ZA75[&!color=#00ff00]:173.780127)[&!color=#00ff00]:86.890063,Cyr__Cyanobacteriota__UR50_A0A9X9ZA75[&!color=#00ff00]:260.67019)[&!color=#00ff00]:86.890063,Cyhr__Cyanobacteriota__UR50_A0A9X9ZA75[&!color=#00ff00]:347.560253)[&!color=#00ff00]:86.890063,Br__Cyanobacteriota__UR50_A0A9X9ZA75[&!color=#00ff00]:434.450316)[&!color=#00ff00]:86.890063,(((((Br__Bacteria__UR50_A0A0D8ZW42[&!color=#00ff00]:86.890063,Xer__Bacteria__UR50_A0A0D8ZW42[&!color=#00ff00]:86.890063)[&!color=#00ff00]:86.890063,Cyr__Aliterella__UniRef90_A0A0D8ZW42[&!color=#00ff00]:173.780127)[&!color=#00ff00]:86.890063,Cyr__Bacteria__UR50_A0A0D8ZW42[&!color=#00ff00]:260.67019)[&!color=#00ff00]:86.890063,Cyhr__Aliterella__UniRef90_A0A0D8ZW42[&!color=#00ff00]:347.560253)[&!color=#00ff00]:86.890063,Cyhr__Bacteria__UR50_A0A0D8ZW42[&!color=#00ff00]:434.450316)[&!color=#00ff00]:86.890063)[&!color=#00ff00]:86.890063,(((((((Cyhr__Oculatella__UR50_A0A8J6T594[&!color=#00ff00]:76.028805,Cyhr__Oculatella__UniRef90_A0A8J6T594[&!color=#00ff00]:76.028805)[&!color=#00ff00]:76.028805,Xer__Oculatella__UR50_A0A8J6T594[&!color=#00ff00]:152.057611)[&!color=#00ff00]:76.028805,Cyr__Oculatella__UR50_A0A8J6T594[&!color=#00ff00]:228.086416)[&!color=#00ff00]:76.028805,(Cyhr__unclassified__UniRef90_UPI0016884D19[&!color=#00ff00]:152.057611,Cyr__unclassified__UniRef90_UPI0016884D19[&!color=#00ff00]:152.057611)[&!color=#00ff00]:152.057611)[&!color=#00ff00]:76.028805,((((((Cyhr__Plectolyngbya__UniRef90_A0A951NX98[&!color=#00ff00]:54.30629,(Cyhr__Cyanophyceae__UniRef90_A0A0S3UBN8[&!color=#00ff00]:27.153145,Cyhr__Leptolyngbya__UniRef90_A0A0P4V0S4[&!color=#00ff00]:27.153145)[&!color=#00ff00]:27.153145)[&!color=#00ff00]:54.30629,Cyhr__Cyanobacteriota__UniRef90_A0A926PME7[&!color=#00ff00]:108.612579)[&!color=#00ff00]:54.30629,Cyhr__Leptolyngbya__UniRef90_A0A926TVT6[&!color=#00ff00]:162.918869)[&!color=#00ff00]:54.30629,((Cyhr__Phormidesmis__UniRef90_A0A2T1DCP3[&!color=#00ff00]:72.408386,Cyr__Phormidesmis__UniRef90_A0A2T1DCP3[&!color=#00ff00]:72.408386)[&!color=#00ff00]:72.408386,(Cyhr__Phormidesmis__UniRef90_UPI00083B4DA5[&!color=#00ff00]:72.408386,Cyr__Phormidesmis__UniRef90_UPI00083B4DA5[&!color=#00ff00]:72.408386)[&!color=#00ff00]:72.408386)[&!color=#00ff00]:72.408386)[&!color=#00ff00]:54.30629,((Cyhr__Leptolyngbya__UniRef90_UPI000B5A185C[&!color=#00ff00]:90.510483,Cyr__Leptolyngbya__UniRef90_UPI000B5A185C[&!color=#00ff00]:90.510483)[&!color=#00ff00]:90.510483,(Cyhr__Cyanobacteria__UniRef90_A0A926PVG5[&!color=#00ff00]:90.510483,Cyr__Cyanobacteria__UniRef90_A0A926PVG5[&!color=#00ff00]:90.510483)[&!color=#00ff00]:90.510483)[&!color=#00ff00]:90.510483)[&!color=#00ff00]:54.30629,(Cyhr__Cyanothece__UniRef90_B8HQU4[&!color=#00ff00]:162.918869,Cyr__Cyanothece__UniRef90_B8HQU4[&!color=#00ff00]:162.918869)[&!color=#00ff00]:162.918869)[&!color=#00ff00]:54.30629)[&!color=#00ff00]:76.028805,(((Cyhr__Leptolyngbya__UniRef90_A0A926ZAJ4[&!color=#00ff00]:114.043208,Cyr__Leptolyngbya__UniRef90_A0A926ZAJ4[&!color=#00ff00]:114.043208)[&!color=#00ff00]:114.043208,(Cyhr__Chroococcus__UniRef90_A0A8J2TRF2[&!color=#00ff00]:114.043208,Cyr__Chroococcus__UniRef90_A0A8J2TRF2[&!color=#00ff00]:114.043208)[&!color=#00ff00]:114.043208)[&!color=#00ff00]:114.043208,((Cyhr__Chamaesiphon__UniRef90_K9UIK1[&!color=#00ff00]:114.043208,Cyr__Chamaesiphon__UniRef90_K9UIK1[&!color=#00ff00]:114.043208)[&!color=#00ff00]:114.043208,Cyhr__Leptolyngbya__UniRef90_UPI002938D558[&!color=#00ff00]:228.086416)[&!color=#00ff00]:114.043208)[&!color=#00ff00]:114.043208)[&!color=#00ff00]:76.028805,((Cyhr__Microcoleus__UniRef90_A0A926U182[&!color=#00ff00]:177.400546,Cyr__Microcoleus__UniRef90_A0A926U182[&!color=#00ff00]:177.400546)[&!color=#00ff00]:177.400546,Cyhr__Phormidium__UniRef90_A0A927EHN9[&!color=#00ff00]:354.801092)[&!color=#00ff00]:177.400546)[&!color=#00ff00]:76.028805)[&!color=#00ff00]:86.890063)[&!color=#00ff00]:139.024101,(((((((Br__Truepera__UR50_A0A6J4UQD4[&!color=#00ff00]:104.268076,Cyhr__uncultured__UniRef90_A0A6J4UQD4[&!color=#00ff00]:104.268076)[&!color=#00ff00]:104.268076,Cyr__Truepera__UR50_A0A6J4UQD4[&!color=#00ff00]:208.536152)[&!color=#00ff00]:104.268076,Xer__Truepera__UR50_A0A6J4UQD4[&!color=#00ff00]:312.804228)[&!color=#00ff00]:104.268076,Cyhr__Truepera__UR50_A0A6J4UQD4[&!color=#00ff00]:417.072304)[&!color=#00ff00]:104.268076,(((((Br__Rubricoccaceae__UR50_A0A271IU12[&!color=#00ff00]:86.890063,Cyhr__Rubrivirga__UniRef90_A0A271IU12[&!color=#00ff00]:86.890063)[&!color=#00ff00]:86.890063,Cyr__Rubricoccaceae__UR50_A0A271IU12[&!color=#00ff00]:173.780127)[&!color=#00ff00]:86.890063,Cyhr__Rubricoccaceae__UR50_A0A271IU12[&!color=#00ff00]:260.67019)[&!color=#00ff00]:86.890063,Cyhr__Rubrivirga__UniRef90_UPI0028C9517B[&!color=#00ff00]:347.560253)[&!color=#00ff00]:86.890063,(Cyhr__Rubricoccus__UniRef90_A0A259U296[&!color=#00ff00]:217.225158,Cyhr__Rubrivirga__UniRef90_A0A271IYE2[&!color=#00ff00]:217.225158)[&!color=#00ff00]:217.225158)[&!color=#00ff00]:86.890063)[&!color=#00ff00]:104.268076,((((Cyhr__Bacteria__UR50_A0A7Y3TUC4[&!color=#00ff00]:125.121691,Cyhr__Bacteria__UniRef90_A0A7Y3TUC4[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691,(Cyhr__Bacteria__UR50_A0A7Y3TU60[&!color=#00ff00]:125.121691,Cyhr__Bacteria__UniRef90_A0A7Y3X9A8[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691,((Cyhr__Nodosilinea__UniRef90_A0A8J7EM17[&!color=#00ff00]:125.121691,Cyr__Nodosilinea__UniRef90_A0A8J7EM17[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691,(Cyhr__Cyanophyceae__UniRef90_A0A2W7AEB9[&!color=#00ff00]:125.121691,Cyr__Cyanophyceae__UniRef90_A0A2W7AEB9[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691)[&!color=#00ff00]:125.121691,(Cyhr__Pseudanabaena__UniRef90_A0A926ZYX4[&!color=#00ff00]:250.243382,Cyr__Pseudanabaena__UniRef90_A0A926ZYX4[&!color=#00ff00]:250.243382)[&!color=#00ff00]:250.243382)[&!color=#00ff00]:125.121691)[&!color=#00ff00]:104.268076,(((Cyhr__Cyanobacteriota__UR50_A0A2W4UKV5[&!color=#00ff00]:182.469133,Cyhr__Leptolyngbya__UniRef90_A0A2W4UKV5[&!color=#00ff00]:182.469133)[&!color=#00ff00]:182.469133,Cyr__Cyanobacteriota__UR50_A0A2W4UKV5[&!color=#00ff00]:364.938266)[&!color=#00ff00]:182.469133,Cyhr__Myxosarcina__UniRef90_UPI000689B0F6[&!color=#00ff00]:547.407398)[&!color=#00ff00]:182.469133)[&!color=#00ff00]:104.268076)[&!color=#00ff00]:446.282265,(Cyhr__Leptolyngbya__UniRef90_A0A926UF78[&!color=#00ff00]:640.213436,Cyr__Leptolyngbya__UniRef90_A0A926UF78[&!color=#00ff00]:640.213436)[&!color=#00ff00]:640.213436)[&!color=#00ff00]:446.282265,(((((Br__Deinococcus__UR50_UPI00220D8E58[&!color=#00ff00]:287.784856,Xer__Deinococcus__UR50_UPI00220D8E58[&!color=#00ff00]:287.784856)[&!color=#00ff00]:287.784856,Cyhr__Deinococcus__UniRef90_UPI00220D8E58[&!color=#00ff00]:575.569712)[&!color=#00ff00]:287.784856,Cyr__Deinococcus__UniRef90_UPI00220D8E58[&!color=#00ff00]:863.354568)[&!color=#00ff00]:287.784856,Cyr__Deinococcus__UR50_UPI00220D8E58[&!color=#00ff00]:1151.139424)[&!color=#00ff00]:287.784856,Cyhr__Deinococcus__UR50_UPI00220D8E58[&!color=#00ff00]:1438.92428)[&!color=#00ff00]:287.784856)[&!color=#00ff00]:446.282265)[&!color=#00ff00]:446.282265,(Cyhr__Nodosilinea__UR50_UPI00293DA23B[&!color=#00ff00]:1309.636833,Cyr__Nodosilinea__UR50_UPI00293DA23B[&!color=#00ff00]:1309.636833)[&!color=#00ff00]:1309.636833)[&!color=#00ff00]:446.282265,((((((((((((((((((((((XeR_Nostoc[&!color=#00ff00]:188.992442,Xer__Nostocaceae__UniRef90_Q8YSC4[&!color=#00ff00]:188.992442)[&!color=#00ff00]:188.992442,((Xer__unclassified__UniRef90_A0A1Z4IC28[&!color=#00ff00]:125.994962,Xer__Nostoc__UniRef90_UPI0016870F7A[&!color=#00ff00]:125.994962)[&!color=#00ff00]:125.994962,Xer__Anabaena__UniRef90_UPI001681BA92[&!color=#00ff00]:251.989923)[&!color=#00ff00]:125.994962)[&!color=#00ff00]:188.992442,Xer__Komarekiella__UniRef90_A0AA40SV90[&!color=#00ff00]:566.977327)[&!color=#00ff00]:188.992442,Xer__Chlorogloeopsis__UniRef90_UPI0025AA4827[&!color=#00ff00]:755.969769)[&!color=#00ff00]:188.992442,(Xer__unclassified__UniRef90_A0A2H2XBQ5[&!color=#00ff00]:472.481106,Xer__Calothrix__UniRef90_A0A930XBC0[&!color=#00ff00]:472.481106)[&!color=#00ff00]:472.481106)[&!color=#00ff00]:188.992442,((((Xer__Chamaesiphon__UniRef90_K9UDV6[&!color=#00ff00]:226.790931,Xer__unclassified__UniRef90_UPI00286B4FBA[&!color=#00ff00]:226.790931)[&!color=#00ff00]:226.790931,Xer__Chamaesiphon__UniRef90_UPI001FE7BDD5[&!color=#00ff00]:453.581861)[&!color=#00ff00]:226.790931,Xer__Synechococcales__UniRef90_A0A930XI48[&!color=#00ff00]:680.372792)[&!color=#00ff00]:226.790931,Xer__Trichocoleus__UniRef90_UPI0025B4A839[&!color=#00ff00]:907.163723)[&!color=#00ff00]:226.790931)[&!color=#00ff00]:188.992442,((Xer__Pegethrix__UniRef90_A0A951P8X6[&!color=#00ff00]:440.982365,(Xer__Cyanophyceae__UniRef90_A0A8J7FVH2[&!color=#00ff00]:220.491183,Xer__Thermocoleostomius__UniRef90_A0A9E8ZCC3[&!color=#00ff00]:220.491183)[&!color=#00ff00]:220.491183)[&!color=#00ff00]:440.982365,((Xer__Leptolyngbya__UniRef90_UPI0021F24B09[&!color=#00ff00]:293.988243,((Xer__filamentous__UniRef90_A0A2T2W344[&!color=#00ff00]:97.996081,Xer__filamentous__UniRef90_A0A2P8W550[&!color=#00ff00]:97.996081)[&!color=#00ff00]:97.996081,Xer__unclassified__UniRef90_A0A8J7EH67[&!color=#00ff00]:195.992162)[&!color=#00ff00]:97.996081)[&!color=#00ff00]:293.988243,Xer__Gloeothece__UniRef90_B7KKH0[&!color=#00ff00]:587.976487)[&!color=#00ff00]:293.988243)[&!color=#00ff00]:440.982365)[&!color=#00ff00]:188.992442,Xer__Leptolyngbyaceae__UniRef90_A0A969KQC5[&!color=#00ff00]:1511.939537)[&!color=#00ff00]:188.992442,((((((((Xer__Fischerella__UR50_UPI0025C16FD1[&!color=#00ff00]:188.992442,(Xer__Fischerella__UniRef90_A0A2N6KA72[&!color=#00ff00]:94.496221,(Xer__Plectonema__UniRef90_A0A8J7FDH7[&!color=#00ff00]:47.248111,Xer__Chroococcidiopsis__UniRef90_K9U4X1[&!color=#00ff00]:47.248111)[&!color=#00ff00]:47.248111)[&!color=#00ff00]:94.496221)[&!color=#00ff00]:188.992442,((Xer__Cyanophyceae__UniRef90_K9XIR7[&!color=#00ff00]:125.994962,Xer__Gloeocapsopsis__UniRef90_A0A2G7GF90[&!color=#00ff00]:125.994962)[&!color=#00ff00]:125.994962,Xer__Gloeocapsopsis__UniRef90_A0A6N8G1P5[&!color=#00ff00]:251.989923)[&!color=#00ff00]:125.994962)[&!color=#00ff00]:188.992442,Xer__Aliterella__UniRef90_A0A0D8ZMP0[&!color=#00ff00]:566.977327)[&!color=#00ff00]:188.992442,Xer__Cyanobacteria__UniRef90_A0A350XF02[&!color=#00ff00]:755.969769)[&!color=#00ff00]:188.992442,(Xer__Dulcicalothrix__UniRef90_A0A3S1AGP4[&!color=#00ff00]:472.481106,Xer__Leptolyngbyaceae__UniRef90_A0A968UBD0[&!color=#00ff00]:472.481106)[&!color=#00ff00]:472.481106)[&!color=#00ff00]:188.992442,(Xer__Chlorogloeopsis__UniRef90_A0A433NPX7[&!color=#00ff00]:566.977327,(Xer__Myxacorys__UniRef90_A0A8J8CI44[&!color=#00ff00]:283.488663,Xer__unclassified__UniRef90_A0A969FFI9[&!color=#00ff00]:283.488663)[&!color=#00ff00]:283.488663)[&!color=#00ff00]:566.977327)[&!color=#00ff00]:188.992442,((Xer__Leptolyngbya__UniRef90_A0A5Q4E204[&!color=#00ff00]:440.982365,Xer__Nodosilinea__UniRef90_A0AA97EF24[&!color=#00ff00]:440.982365)[&!color=#00ff00]:440.982365,Xer__Nodosilinea__UniRef90_UPI0023B27A9D[&!color=#00ff00]:881.96473)[&!color=#00ff00]:440.982365)[&!color=#00ff00]:188.992442,((((Xer__Chroococcidiopsis__UniRef90_A0A2P8QWW1[&!color=#00ff00]:302.387908,Xer__Leptolyngbya__UniRef90_A0A926UDI1[&!color=#00ff00]:302.387908)[&!color=#00ff00]:302.387908,(Xer__Cyanobacteriota__UniRef90_A0A927ENI9[&!color=#00ff00]:302.387908,(Xer__Trichocoleus__UniRef90_A0A8J7B835[&!color=#00ff00]:151.193954,Xer__Oscillatoria__UniRef90_A0A926X8P0[&!color=#00ff00]:151.193954)[&!color=#00ff00]:151.193954)[&!color=#00ff00]:302.387908)[&!color=#00ff00]:302.387908,((Xer__Leptolyngbya__UniRef90_A0A926V7J7[&!color=#00ff00]:302.387908,Xer__Phormidium__UniRef90_UPI0016846037[&!color=#00ff00]:302.387908)[&!color=#00ff00]:302.387908,Xer__Cyanobacteria__UniRef90_A0A926PY22[&!color=#00ff00]:604.775815)[&!color=#00ff00]:302.387908)[&!color=#00ff00]:302.387908,Xer__Oculatella__UniRef90_A0A8J7EW44[&!color=#00ff00]:1209.55163)[&!color=#00ff00]:302.387908)[&!color=#00ff00]:188.992442)[&!color=#00ff00]:97.473139,(((Cyhr__Terrabacteria__UR50_A0A0P7YZ09[&!color=#00ff00]:449.60128,Xer__Phormidesmis__UniRef90_A0A0P7YZ09[&!color=#00ff00]:449.60128)[&!color=#00ff00]:449.60128,Xer__Terrabacteria__UR50_A0A0P7YZ09[&!color=#00ff00]:899.20256)[&!color=#00ff00]:449.60128,Xer__Leptolyngbyaceae__UniRef90_A0A2W4TRN2[&!color=#00ff00]:1348.803839)[&!color=#00ff00]:449.60128)[&!color=#00ff00]:97.473139,Xer__Cyanobacteria__UniRef90_A0A926SLQ3[&!color=#00ff00]:1895.878258)[&!color=#00ff00]:97.473139,Xer__Cyanothece__UR50_B8HWV7[&!color=#996633]:1993.351398)[&!color=#996633]:97.473139,((Cyhr__Bacteroidota__UR50_A0A1P9WTB2[&!color=#996633]:696.941512,Xer__Bacteroidota__UR50_A0A1P9WTB2[&!color=#996633]:696.941512)[&!color=#996633]:696.941512,Xer__Pontibacter__UR50_A0A923N570[&!color=#996633]:1393.883025)[&!color=#996633]:696.941512)[&!color=#996633]:97.473139,(((Cyhr__Bacteria__UR50_A0A1G1STR4[&!color=#996633]:547.074419,Xer__Bacteria__UR50_A0A1G1STR4[&!color=#996633]:547.074419)[&!color=#996633]:547.074419,Xer__Bacteria__UR50_A0A519SK79[&!color=#996633]:1094.148838)[&!color=#996633]:547.074419,((('Cyr__Bacteroidota/Chlorobiota__UR50_A0A259U1H3'[&!color=#996633]:410.305814,'Xer__Bacteroidota/Chlorobiota__UR50_A0A259U1H3'[&!color=#996633]:410.305814)[&!color=#996633]:410.305814,Xer__Bacteria__UR50_A0A271IX38[&!color=#996633]:820.611629)[&!color=#996633]:410.305814,(Xer__Actinomycetes__UR50_A0A1H6XB79[&!color=#996633]:615.458722,Xer__Micromonosporaceae__UR50_A0A1Q4ZQH2[&!color=#996633]:615.458722)[&!color=#996633]:615.458722)[&!color=#996633]:410.305814)[&!color=#996633]:547.074419)[&!color=#996633]:97.473139,((((Cyr__Terrabacteria__UR50_A0A1L3MLR8[&!color=#996633]:457.154163,Xer__Terrabacteria__UR50_A0A1L3MLR8[&!color=#996633]:457.154163)[&!color=#996633]:457.154163,(Cyr__Bacillota__UR50_A0A6I0FE40[&!color=#996633]:457.154163,Xer__Bacillota__UR50_A0A6I0FE40[&!color=#996633]:457.154163)[&!color=#996633]:457.154163)[&!color=#996633]:457.154163,(Cyr__Terrabacteria__UR50_A0A3R9M9T5[&!color=#996633]:685.731245,Xer__Terrabacteria__UR50_A0A3R9M9T5[&!color=#996633]:685.731245)[&!color=#996633]:685.731245)[&!color=#996633]:457.154163,((Cyr__Truepera__UR50_D7CXV3[&!color=#996633]:609.538884,Xer__Truepera__UR50_D7CXV3[&!color=#996633]:609.538884)[&!color=#996633]:609.538884,Xer__Hymenobacter__UR50_A0A7H0GW45[&!color=#996633]:1219.077768)[&!color=#996633]:609.538884)[&!color=#996633]:457.154163)[&!color=#996633]:97.473139,((Cyhr__Bacteria__UR50_A0A072NB13[&!color=#996633]:794.414652,Xer__Bacteria__UR50_A0A072NB13[&!color=#996633]:794.414652)[&!color=#996633]:794.414652,Xer__Deinococcus__UR50_UPI00146FA852[&!color=#996633]:1588.829304)[&!color=#996633]:794.414652)[&!color=#996633]:97.473139,Xer__Paeniclostridium__UR50_A0A0C7PQA0[&!color=#996633]:2480.717095)[&!color=#996633]:97.473139,((Br__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#996633]:859.396745,Cyr__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#996633]:859.396745)[&!color=#996633]:859.396745,Cyhr__Gammaproteobacteria__UR50_A0A2R8CJ36[&!color=#996633]:1718.793489)[&!color=#996633]:859.396745)[&!color=#996633]:97.473139,Xer__Pseudomonadota__UR50_A0A0Q4L756[&!color=#996633]:2675.663373)[&!color=#996633]:97.473139,((Cyhr__Gloeobacterales__UR50_A0A925XUD8[&!color=#00ff00]:924.378838,Xer__Gloeobacterales__UR50_A0A925XUD8[&!color=#00ff00]:924.378838)[&!color=#00ff00]:924.378838,Cyr__Gloeobacterales__UR50_A0A925XUD8[&!color=#00ff00]:1848.757675)[&!color=#00ff00]:924.378838)[&!color=#996633]:97.473139,(Cyr__Rubrobacter__UR50_UPI0009FD7C88[&!color=#996633]:1435.304826,Xer__Rubrobacter__UR50_UPI0009FD7C88[&!color=#996633]:1435.304826)[&!color=#996633]:1435.304826)[&!color=#996633]:97.473139,((((((Cyhr__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#996633]:424.011827,Xer__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#996633]:424.011827)[&!color=#996633]:424.011827,Cyr__Alphaproteobacteria__UR50_A0A7V7TUE7[&!color=#996633]:848.023655)[&!color=#996633]:424.011827,(Cyhr__Sphingomonas__UR50_UPI0015775044[&!color=#996633]:636.017741,Xer__Sphingomonas__UR50_UPI0015775044[&!color=#996633]:636.017741)[&!color=#996633]:636.017741)[&!color=#996633]:424.011827,(((Cyhr__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#996633]:424.011827,Xer__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#996633]:424.011827)[&!color=#996633]:424.011827,Cyr__Lichenibacterium__UR50_A0A4Q2RG75[&!color=#996633]:848.023655)[&!color=#996633]:424.011827,(((Cyhr__Alphaproteobacteria__UR50_A0A0P0YG33[&!color=#996633]:318.008871,(Cyr__Alphaproteobacteria__UR50_A0A502GBB7[&!color=#996633]:159.004435,Xer__Alphaproteobacteria__UR50_A0A502GBB7[&!color=#996633]:159.004435)[&!color=#996633]:159.004435)[&!color=#996633]:318.008871,Xer__Methylobacteriaceae__UR50_A0A0C6F7V1[&!color=#996633]:636.017741)[&!color=#996633]:318.008871,Xer__Hyphomicrobiales__UR50_A0A4Q2U3N5[&!color=#996633]:954.026612)[&!color=#996633]:318.008871)[&!color=#996633]:424.011827)[&!color=#996633]:424.011827,(((Cyhr__Sphingomonas__UR50_A0A2A2SBC3[&!color=#996633]:530.014784,Xer__Sphingomonas__UR50_A0A2A2SBC3[&!color=#996633]:530.014784)[&!color=#996633]:530.014784,Cyr__Sphingomonas__UR50_A0A2A2SBC3[&!color=#996633]:1060.029568)[&!color=#996633]:530.014784,((Cyhr__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#996633]:530.014784,Xer__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#996633]:530.014784)[&!color=#996633]:530.014784,Cyr__Alphaproteobacteria__UR50_A0A5B2VFD4[&!color=#996633]:1060.029568)[&!color=#996633]:530.014784)[&!color=#996633]:530.014784)[&!color=#996633]:424.011827,((((Cyhr__root__UR50_A0A938EDB5[&!color=#996633]:508.814193,Xer__root__UR50_A0A938EDB5[&!color=#996633]:508.814193)[&!color=#996633]:508.814193,(Cyr__Actinomycetes__UniRef90_A0A6I2VAT4[&!color=#996633]:508.814193,(Cyr__Bacteria__UniRef90_A0A948WFJ8[&!color=#996633]:254.407096,Cyr__Mycobacteriaceae__UniRef90_A0A9E2K851[&!color=#996633]:254.407096)[&!color=#996633]:254.407096)[&!color=#996633]:508.814193)[&!color=#996633]:508.814193,Cyr__Solirubrobacterales__UniRef90_A0A7V8ZIZ4[&!color=#996633]:1526.442579)[&!color=#996633]:508.814193,((((Cyhr__Bacteria__UR50_A0A966QHT7[&!color=#996633]:407.051354,Xer__Bacteria__UR50_A0A966QHT7[&!color=#996633]:407.051354)[&!color=#996633]:407.051354,Cyr__Bacteria__UR50_A0A966QHT7[&!color=#996633]:814.102709)[&!color=#996633]:407.051354,Cyr__Candidatus__UR50_A0A924CI60[&!color=#996633]:1221.154063)[&!color=#996633]:407.051354,((Cyr__Candidatus__UR50_A0A924HUX2[&!color=#996633]:542.735139,Xer__Candidatus__UR50_A0A924HUX2[&!color=#996633]:542.735139)[&!color=#996633]:542.735139,(Cyr__Candidatus__UR50_A0A924E4Y5[&!color=#996633]:542.735139,Xer__Candidatus__UR50_A0A924E4Y5[&!color=#996633]:542.735139)[&!color=#996633]:542.735139)[&!color=#996633]:542.735139)[&!color=#996633]:407.051354)[&!color=#996633]:508.814193)[&!color=#996633]:424.011827)[&!color=#996633]:97.473139)[&!color=#996633]:97.473139,(((((Br__Dictyobacter__UR50_A0A402ATH3[&!color=#996633]:527.171512,Xer__Dictyobacter__UR50_A0A402ATH3[&!color=#996633]:527.171512)[&!color=#996633]:527.171512,Cyr__Dictyobacter__UR50_A0A402ATH3[&!color=#996633]:1054.343023)[&!color=#996633]:527.171512,Cyr__Dictyobacter__UniRef90_A0A402ATH3[&!color=#996633]:1581.514535)[&!color=#996633]:527.171512,Cyhr__Dictyobacter__UR50_A0A402ATH3[&!color=#996633]:2108.686047)[&!color=#996633]:527.171512,((Cyhr__Ktedonobacterales__UR50_D6U1J0[&!color=#996633]:878.619186,Cyr__Ktedonobacterales__UR50_D6U1J0[&!color=#996633]:878.619186)[&!color=#996633]:878.619186,Cyr__Dictyobacter__UniRef90_A0A5J4KXN6[&!color=#996633]:1757.238372)[&!color=#996633]:878.619186)[&!color=#996633]:527.171512)[&!color=#996633]:97.473139,(((((Br__Rubrobacteraceae__UR50_Q1AUE6[&!color=#996633]:543.417035,Xer__Rubrobacteraceae__UR50_Q1AUE6[&!color=#996633]:543.417035)[&!color=#996633]:543.417035,Cyr__Rubrobacteraceae__UR50_Q1AUE6[&!color=#996633]:1086.83407)[&!color=#996633]:543.417035,Cyhr__Rubrobacter__UniRef90_Q1AUE6[&!color=#996633]:1630.251105)[&!color=#996633]:543.417035,Cyr__Rubrobacter__UniRef90_Q1AUE6[&!color=#996633]:2173.66814)[&!color=#996633]:543.417035,Cyhr__Rubrobacteraceae__UR50_Q1AUE6[&!color=#996633]:2717.085175)[&!color=#996633]:543.417035)[&!color=#996633]:97.473139,((((((Br__Actinomycetota__UR50_A0A938EPH0[&!color=#996633]:479.710764,Cyhr__Actinomycetota__UniRef90_A0A938EPH0[&!color=#996633]:479.710764)[&!color=#996633]:479.710764,Cyr__Actinomycetota__UR50_A0A938EPH0[&!color=#996633]:959.421528)[&!color=#996633]:479.710764,Cyr__Actinomycetota__UniRef90_A0A938EPH0[&!color=#996633]:1439.132292)[&!color=#996633]:479.710764,Xer__Actinomycetota__UR50_A0A938EPH0[&!color=#996633]:1918.843057)[&!color=#996633]:479.710764,Cyhr__Actinomycetota__UR50_A0A938EPH0[&!color=#996633]:2398.553821)[&!color=#996633]:479.710764,(Cyhr__Actinomycetota__UR50_A0A9D8D7T8[&!color=#996633]:1439.132292,Cyr__Actinomycetota__UR50_A0A9D8D7T8[&!color=#996633]:1439.132292)[&!color=#996633]:1439.132292)[&!color=#996633]:479.710764)[&!color=#996633]:97.473139,((((Br__Chromera__UR50_A0A0G4G5F3[&!color=#0000ff]:691.089698,(Br__Vitrella__UR50_A0A0G4FEK1[&!color=#0000ff]:345.544849,Cyr__Vitrella__UR50_A0A0G4FEK1[&!color=#0000ff]:345.544849)[&!color=#0000ff]:345.544849)[&!color=#0000ff]:691.089698,((((Br__cellular__UR50_S0ELR6[&!color=#0000ff]:276.435879,Br__leotiomyceta__UR50_M2MME4[&!color=#0000ff]:276.435879)[&!color=#0000ff]:276.435879,(Br__Tremellales__UR50_A0A5M6C708[&!color=#0000ff]:276.435879,((((((((((Br__Daldinia__UR50_UPI00200731EA[&!color=#0000ff]:25.130534,Cyr__Xylaria__UR50_A0A553HJD1[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534,(Cyhr__Phialophora__UR50_A0A0D2FVJ8[&!color=#0000ff]:25.130534,Cyr__Phialophora__UR50_A0A0D2FVJ8[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534,((Cyhr__Monilinia__UR50_A0A5N6KJ15[&!color=#0000ff]:25.130534,Cyr__Monilinia__UR50_A0A5N6KJ15[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534,(Cyhr__Erysiphaceae__UR50_A0A0B1P8N0[&!color=#0000ff]:25.130534,Cyr__Erysiphaceae__UR50_A0A0B1P8N0[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534)[&!color=#0000ff]:25.130534,(Cyr__Aureobasidium__UR50_A0A4T0DVF0[&!color=#0000ff]:50.261069,Cyr__Dothideomycetes__UR50_N1Q8M8[&!color=#0000ff]:50.261069)[&!color=#0000ff]:50.261069)[&!color=#0000ff]:25.130534,Cyr__Pleosporomycetidae__UR50_A0A1Y1YWQ8[&!color=#0000ff]:125.652672)[&!color=#0000ff]:25.130534,Cyr__leotiomyceta__UR50_A0A6A6BBW8[&!color=#0000ff]:150.783207)[&!color=#0000ff]:25.130534,Cyr__Stachybotrys__UR50_A0A084B629[&!color=#0000ff]:175.913741)[&!color=#0000ff]:25.130534,(Cyhr__Taphrinales__UR50_R4XKS9[&!color=#0000ff]:100.522138,Cyr__Taphrinales__UR50_R4XKS9[&!color=#0000ff]:100.522138)[&!color=#0000ff]:100.522138)[&!color=#0000ff]:25.130534,Cyr__Pucciniales__UR50_F4S3M3[&!color=#0000ff]:226.17481)[&!color=#0000ff]:25.130534,((Cyhr__Exobasidiomycetes__UR50_A0A316VHF9[&!color=#0000ff]:83.768448,(Cyr__Trebouxiophyceae__UR50_I0YUS5[&!color=#0000ff]:41.884224,Cyr__Klebsormidium__UR50_A0A1Y1HL70[&!color=#0000ff]:41.884224)[&!color=#0000ff]:41.884224)[&!color=#0000ff]:83.768448,Cyr__Mixia__UR50_G7DX39[&!color=#0000ff]:167.536896)[&!color=#0000ff]:83.768448)[&!color=#0000ff]:25.130534)[&!color=#0000ff]:276.435879)[&!color=#0000ff]:276.435879,Xer__Gonapodya__UR50_A0A139AI58[&!color=#0000ff]:829.307637)[&!color=#0000ff]:276.435879,(Br__Tetraselmis__UR50_A0A061RSZ0[&!color=#0000ff]:552.871758,(Br__cellular__UR50_A0A7R9U5N0[&!color=#0000ff]:276.435879,((Br__Tetraselmis__UR50_A0A061S8L7[&!color=#0000ff]:92.145293,Cyr__Tetraselmis__UR50_A0A061S8L7[&!color=#0000ff]:92.145293)[&!color=#0000ff]:92.145293,Cyhr__Tetraselmis__UR50_A0A061S8L7[&!color=#0000ff]:184.290586)[&!color=#0000ff]:92.145293)[&!color=#0000ff]:276.435879)[&!color=#0000ff]:552.871758)[&!color=#0000ff]:276.435879)[&!color=#0000ff]:691.089698,(Cyhr__viral__UR50_A0A6C0APG5[&!color=#0000ff]:1036.634547,((Cyhr__Cryptophyceae__UR50_L1JTW1[&!color=#0000ff]:345.544849,Cyr__Cryptophyceae__UR50_L1JTW1[&!color=#0000ff]:345.544849)[&!color=#0000ff]:345.544849,(Cyr__Cryptophyceae__UR50_A0A6T8GGP0[&!color=#0000ff]:345.544849,Cyr__Cryptophyceae__UR50_L1J8F1[&!color=#0000ff]:345.544849)[&!color=#0000ff]:345.544849)[&!color=#0000ff]:345.544849)[&!color=#0000ff]:1036.634547)[&!color=#0000ff]:691.089698,((((Br__Cryptomonadales__UR50_A0A7S1DWA7[&!color=#0000ff]:552.871758,Cyr__Cryptomonadales__UR50_A0A7S1DWA7[&!color=#0000ff]:552.871758)[&!color=#0000ff]:552.871758,Cyhr__Cryptomonadales__UR50_A0A7S1DWA7[&!color=#0000ff]:1105.743516)[&!color=#0000ff]:552.871758,Br__Hemiselmis__UR50_A0A7S0TWK7[&!color=#0000ff]:1658.615274)[&!color=#0000ff]:552.871758,(Br__Hemiselmis__UR50_A0A6T8IZ18[&!color=#0000ff]:1105.743516,Cyr__Hemiselmis__UR50_A0A6T8IZ18[&!color=#0000ff]:1105.743516)[&!color=#0000ff]:1105.743516)[&!color=#0000ff]:552.871758)[&!color=#0000ff]:691.089698):97.473139,(((((((((((((((((((((((BR_Halobacterium[&!color=#ff8000]:148.038401,Cyr__Archaea__UR50_P02945[&!color=#ff8000]:148.038401)[&!color=#ff8000]:148.038401,Br__Halobacterium__UniRef90_P02945[&!color=#ff8000]:296.076802)[&!color=#ff8000]:148.038401,Cyhr__Archaea__UR50_P02945[&!color=#ff8000]:444.115204)[&!color=#ff8000]:148.038401,Br__Archaea__UR50_P02945[&!color=#ff8000]:592.153605)[&!color=#ff8000]:148.038401,(((Br__Halobacterium__UR50_UPI0000110B77[&!color=#ff8000]:185.048001,Br__Halobacterium__UniRef90_UPI0000110B77[&!color=#ff8000]:185.048001)[&!color=#ff8000]:185.048001,Cyr__Halobacterium__UR50_UPI0000110B77[&!color=#ff8000]:370.096003)[&!color=#ff8000]:185.048001,Cyhr__Halobacterium__UR50_UPI0000110B77[&!color=#ff8000]:555.144004)[&!color=#ff8000]:185.048001)[&!color=#ff8000]:148.038401,(Br__uncultured__UR50_D9MWK9[&!color=#ff8000]:444.115204,Br__Halobacterium__UniRef90_UPI001F011AB0[&!color=#ff8000]:444.115204)[&!color=#ff8000]:444.115204)[&!color=#ff8000]:148.038401,Br__Haloplanus__UniRef90_A0A6B9F3P5[&!color=#ff8000]:1036.268808)[&!color=#ff8000]:148.038401,Br__Halohasta__UniRef90_UPI002110EEC8[&!color=#ff8000]:1184.307209)[&!color=#ff8000]:148.038401,Br__Halobaculum__UniRef90_UPI001EFEF83C[&!color=#ff8000]:1332.34561)[&!color=#ff8000]:148.038401,Br__Haloplanus__UniRef90_UPI000A5CE34D[&!color=#ff8000]:1480.384012)[&!color=#ff8000]:148.038401,((Br__Uncultured__UR50_I1X8Q4[&!color=#ff8000]:542.807471,Br__Uncultured__UniRef90_I1X958[&!color=#ff8000]:542.807471)[&!color=#ff8000]:542.807471,Br__Uncultured__UR50_I1X8N9[&!color=#ff8000]:1085.614942)[&!color=#ff8000]:542.807471)[&!color=#ff8000]:148.038401,Br__Halobacteriales__UniRef90_A0A2R6JS63[&!color=#ff8000]:1776.460814)[&!color=#ff8000]:148.038401,(((Br__Haloplanus__UR50_A0A368NBE5[&!color=#ff8000]:481.124804,Cyr__Haloplanus__UR50_A0A368NBE5[&!color=#ff8000]:481.124804)[&!color=#ff8000]:481.124804,Cyhr__Haloplanus__UR50_A0A368NBE5[&!color=#ff8000]:962.249608)[&!color=#ff8000]:481.124804,(Br__Halohasta__UR50_UPI0020A34ABF[&!color=#ff8000]:721.687206,(Br__Haloplanus__UR50_A0A6B9F3Z3[&!color=#ff8000]:360.843603,Cyr__Haloplanus__UR50_A0A6B9F3Z3[&!color=#ff8000]:360.843603)[&!color=#ff8000]:360.843603)[&!color=#ff8000]:721.687206)[&!color=#ff8000]:481.124804)[&!color=#ff8000]:148.038401,Br__unclassified__UniRef90_A0A2R6LDY7[&!color=#ff8000]:2072.537616)[&!color=#ff8000]:148.038401,Br__Halobacteriales__UniRef90_A0A2R6LT28[&!color=#ff8000]:2220.576017)[&!color=#ff8000]:148.038401,Br__Halorientalis__UniRef90_A0A1G7RA78[&!color=#ff8000]:2368.614419)[&!color=#ff8000]:148.038401,((((Br__Halobacteria__UniRef90_G0LFX8[&!color=#ff8000]:503.330564,Br__Halobellus__UniRef90_A0A7J9SID8[&!color=#ff8000]:503.330564)[&!color=#ff8000]:503.330564,(((Br__unclassified__UniRef90_A0A2R6GPV3[&!color=#ff8000]:251.665282,Br__Halobacteriales__UniRef90_A0A2R6LKP5[&!color=#ff8000]:251.665282)[&!color=#ff8000]:251.665282,Br__Halorientalis__UniRef90_UPI001FF6B2B9[&!color=#ff8000]:503.330564)[&!color=#ff8000]:251.665282,Br__Natronomonas__UniRef90_UPI0020C975B2[&!color=#ff8000]:754.995846)[&!color=#ff8000]:251.665282)[&!color=#ff8000]:503.330564,Br__Halobacteriales__UniRef90_A7U0U1[&!color=#ff8000]:1509.991692)[&!color=#ff8000]:503.330564,Br__Salinirubrum__UniRef90_UPI001D07B5FE[&!color=#ff8000]:2013.322256)[&!color=#ff8000]:503.330564)[&!color=#ff8000]:148.038401,((((((((((((Br__Archaea__UR50_P69051[&!color=#ff8000]:204.976248,Cyr__Archaea__UR50_P69051[&!color=#ff8000]:204.976248)[&!color=#ff8000]:204.976248,Xer__Archaea__UR50_P69051[&!color=#ff8000]:409.952496)[&!color=#ff8000]:204.976248,Br__Halobacteria__UniRef90_P69051[&!color=#ff8000]:614.928743)[&!color=#ff8000]:204.976248,Cyhr__Archaea__UR50_P69051[&!color=#ff8000]:819.904991)[&!color=#ff8000]:204.976248,Br__Halorubrum__UR50_A0A4U7EYP1[&!color=#ff8000]:1024.881239)[&!color=#ff8000]:204.976248,Br__uncultured__UR50_A0A0S1WDR5[&!color=#ff8000]:1229.857487)[&!color=#ff8000]:204.976248,Br__Halobacteria__UR50_W0FWY1[&!color=#ff8000]:1434.833734)[&!color=#ff8000]:204.976248,(Br__unclassified__UniRef90_A0A4U7F7H9[&!color=#ff8000]:819.904991,Br__Halorubrum__UniRef90_UPI0021111C71[&!color=#ff8000]:819.904991)[&!color=#ff8000]:819.904991)[&!color=#ff8000]:204.976248,((Br__Halobacteria__UniRef90_P29563[&!color=#ff8000]:614.928743,Br__Natronomonas__UniRef90_M1Y5I7[&!color=#ff8000]:614.928743)[&!color=#ff8000]:614.928743,Br__Halorubrum__UniRef90_A0A3Q9EA60[&!color=#ff8000]:1229.857487)[&!color=#ff8000]:614.928743)[&!color=#ff8000]:204.976248,Br__unclassified__UniRef90_A0A256HWP6[&!color=#ff8000]:2049.762478)[&!color=#ff8000]:204.976248,Br__Archaea__UniRef90_V4ZQH6[&!color=#ff8000]:2254.738725)[&!color=#ff8000]:204.976248,((Br__uncultured__UR50_A0A0S1WEI0[&!color=#ff8000]:819.904991,Br__uncultured__UniRef90_V4Y792[&!color=#ff8000]:819.904991)[&!color=#ff8000]:819.904991,Br__Halobacteriales__UniRef90_A0A2R6J274[&!color=#ff8000]:1639.809982)[&!color=#ff8000]:819.904991)[&!color=#ff8000]:204.976248)[&!color=#ff8000]:148.038401,((Br__halophilic__UR50_U1R431[&!color=#ff8000]:937.576541,Cyr__halophilic__UR50_U1R431[&!color=#ff8000]:937.576541)[&!color=#ff8000]:937.576541,Cyhr__halophilic__UR50_U1R431[&!color=#ff8000]:1875.153081)[&!color=#ff8000]:937.576541)[&!color=#ff8000]:148.038401,(((((((((((Br__Halobacteria__UR50_Q53496[&!color=#ff8000]:246.730669,Xer__Halobacteria__UR50_Q53496[&!color=#ff8000]:246.730669)[&!color=#ff8000]:246.730669,Cyr__Halobacteria__UR50_Q53496[&!color=#ff8000]:493.461337)[&!color=#ff8000]:246.730669,Cyhr__Halobacteria__UR50_Q53496[&!color=#ff8000]:740.192006)[&!color=#ff8000]:246.730669,Br__Halobacteriales__UniRef90_A0A2R6HQ15[&!color=#ff8000]:986.922674)[&!color=#ff8000]:246.730669,(((((Br__Archaea__UR50_P94854[&!color=#ff8000]:205.608891,Cyr__Archaea__UR50_P94854[&!color=#ff8000]:205.608891)[&!color=#ff8000]:205.608891,Br__Halobacteriales__UniRef90_P94854[&!color=#ff8000]:411.217781)[&!color=#ff8000]:205.608891,Xer__Archaea__UR50_P94854[&!color=#ff8000]:616.826672)[&!color=#ff8000]:205.608891,Cyhr__Archaea__UR50_P94854[&!color=#ff8000]:822.435562)[&!color=#ff8000]:205.608891,Br__Halobacteriales__UniRef90_A0A2R6GSY0[&!color=#ff8000]:1028.044452)[&!color=#ff8000]:205.608891)[&!color=#ff8000]:246.730669,(((((Br__unclassified__UR50_A0A2R6GG49[&!color=#ff8000]:246.730669,Cyhr__unclassified__UR50_A0A2R6GG49[&!color=#ff8000]:246.730669)[&!color=#ff8000]:246.730669,Cyr__Halobacteria__UniRef90_A0A6B9F027[&!color=#ff8000]:493.461337)[&!color=#ff8000]:246.730669,Cyr__Halohasta__UniRef90_UPI0020A583B9[&!color=#ff8000]:740.192006)[&!color=#ff8000]:246.730669,(((Cyr__Haloferacales__UniRef90_A0A4U7F5Q1[&!color=#ff8000]:246.730669,Cyr__Halorubrum__UniRef90_A0A329T627[&!color=#ff8000]:246.730669)[&!color=#ff8000]:246.730669,Cyr__Haloplanus__UniRef90_UPI0020406A55[&!color=#ff8000]:493.461337)[&!color=#ff8000]:246.730669,Cyr__Halobaculum__UniRef90_A0A1M5UDZ8[&!color=#ff8000]:740.192006)[&!color=#ff8000]:246.730669)[&!color=#ff8000]:246.730669,(Br__cellular__UR50_U5TVL7[&!color=#ff8000]:616.826672,Cyr__cellular__UR50_U5TVL7[&!color=#ff8000]:616.826672)[&!color=#ff8000]:616.826672)[&!color=#ff8000]:246.730669)[&!color=#ff8000]:246.730669,Cyr__unclassified__UniRef90_A0A2R6K7R7[&!color=#ff8000]:1727.11468)[&!color=#ff8000]:246.730669,((Br__Haloarculaceae__UR50_A0A3P3RCT8[&!color=#ff8000]:657.94845,Br__Halobacteriales__UR50_A0A2R6JL35[&!color=#ff8000]:657.94845)[&!color=#ff8000]:657.94845,(Br__Halomarina__UniRef90_UPI0026F40B8B[&!color=#ff8000]:657.94845,Cyr__Halomarina__UniRef90_UPI0026F40B8B[&!color=#ff8000]:657.94845)[&!color=#ff8000]:657.94845)[&!color=#ff8000]:657.94845)[&!color=#ff8000]:246.730669,((((Br__Halorientalis__UniRef90_A0A1G7PUC9[&!color=#ff8000]:444.115204,(Br__Halorientalis__UniRef90_UPI001FF6C9D7[&!color=#ff8000]:222.057602,Cyr__Halorientalis__UniRef90_UPI001FF15E48[&!color=#ff8000]:222.057602)[&!color=#ff8000]:222.057602)[&!color=#ff8000]:444.115204,Cyr__Halobacteriales__UniRef90_A0A2R6GS10[&!color=#ff8000]:888.230407)[&!color=#ff8000]:444.115204,Cyr__Haloarchaeobius__UniRef90_UPI00226E43C4[&!color=#ff8000]:1332.34561)[&!color=#ff8000]:444.115204,(Cyr__unclassified__UniRef90_A0A2R6J4F0[&!color=#ff8000]:888.230407,Cyr__Salinirubellus__UniRef90_A0A9E7U421[&!color=#ff8000]:888.230407)[&!color=#ff8000]:888.230407)[&!color=#ff8000]:444.115204)[&!color=#ff8000]:246.730669,(((Br__Haloarchaeobius__UniRef90_UPI00226DF6EF[&!color=#ff8000]:616.826672,Cyr__Haloarchaeobius__UniRef90_UPI00226DF6EF[&!color=#ff8000]:616.826672)[&!color=#ff8000]:616.826672,(((((((Br__Natrialbaceae__UniRef90_M0CK77[&!color=#ff8000]:154.206668,Cyr__Natrialbaceae__UniRef90_M0CK77[&!color=#ff8000]:154.206668)[&!color=#ff8000]:154.206668,Cyr__Natrialbaceae__UniRef90_O93740[&!color=#ff8000]:308.413336)[&!color=#ff8000]:154.206668,Cyr__Halobiforma__UniRef90_A0A1P8LP89[&!color=#ff8000]:462.620004)[&!color=#ff8000]:154.206668,(Br__Salinilacihabitans__UniRef90_UPI0021140345[&!color=#ff8000]:308.413336,Cyr__Salinilacihabitans__UniRef90_UPI0021140345[&!color=#ff8000]:308.413336)[&!color=#ff8000]:308.413336)[&!color=#ff8000]:154.206668,((((Br__Natronobeatus__UniRef90_UPI0020CDB3FE[&!color=#ff8000]:154.206668,Cyr__Natronobeatus__UniRef90_UPI0020CDB3FE[&!color=#ff8000]:154.206668)[&!color=#ff8000]:154.206668,Cyr__Natrinema__UniRef90_A0A7D5GSH5[&!color=#ff8000]:308.413336)[&!color=#ff8000]:154.206668,(Br__Natrarchaeobaculum__UniRef90_A0A346PUS3[&!color=#ff8000]:231.310002,Cyr__Natrarchaeobaculum__UniRef90_A0A346PUS3[&!color=#ff8000]:231.310002)[&!color=#ff8000]:231.310002)[&!color=#ff8000]:154.206668,(Br__Halobiforma__UniRef90_A0A1I1DPA8[&!color=#ff8000]:308.413336,Cyr__Halobiforma__UniRef90_A0A1I1DPA8[&!color=#ff8000]:308.413336)[&!color=#ff8000]:308.413336)[&!color=#ff8000]:154.206668)[&!color=#ff8000]:154.206668,Cyr__Natribaculum__UniRef90_UPI0022466372[&!color=#ff8000]:925.240007)[&!color=#ff8000]:154.206668,((((Br__Halomarina__UniRef90_UPI0020327DF1[&!color=#ff8000]:215.889335,Cyr__Halomarina__UniRef90_UPI0020327DF1[&!color=#ff8000]:215.889335)[&!color=#ff8000]:215.889335,((Br__Halogranum__UniRef90_A0A1H8RSA7[&!color=#ff8000]:143.926223,Cyr__Halogranum__UniRef90_A0A1H8RSA7[&!color=#ff8000]:143.926223)[&!color=#ff8000]:143.926223,Cyhr__Halogranum__UniRef90_A0A1H8RSA7[&!color=#ff8000]:287.852447)[&!color=#ff8000]:143.926223)[&!color=#ff8000]:215.889335,((Br__Halobium__UniRef90_UPI002271B22C[&!color=#ff8000]:215.889335,Cyr__Halobium__UniRef90_UPI002271B22C[&!color=#ff8000]:215.889335)[&!color=#ff8000]:215.889335,((Br__Halolamina__UniRef90_UPI0022715CDC[&!color=#ff8000]:143.926223,Cyr__Halolamina__UniRef90_UPI0022715CDC[&!color=#ff8000]:143.926223)[&!color=#ff8000]:143.926223,Cyr__Haloferax__UniRef90_M0IDG5[&!color=#ff8000]:287.852447)[&!color=#ff8000]:143.926223)[&!color=#ff8000]:215.889335)[&!color=#ff8000]:215.889335,(Br__Halegenticoccus__UniRef90_UPI00100C2973[&!color=#ff8000]:431.77867,Cyr__Halegenticoccus__UniRef90_UPI00100C2973[&!color=#ff8000]:431.77867)[&!color=#ff8000]:431.77867)[&!color=#ff8000]:215.889335)[&!color=#ff8000]:154.206668)[&!color=#ff8000]:616.826672,((Br__Salinigranum__UniRef90_A0A2I8VEZ7[&!color=#ff8000]:616.826672,Cyr__Salinigranum__UniRef90_A0A2I8VEZ7[&!color=#ff8000]:616.826672)[&!color=#ff8000]:616.826672,((Br__Halobacteriales__UniRef90_A0A2R6KGD7[&!color=#ff8000]:411.217781,Cyr__Halobacteriales__UniRef90_A0A2R6KGD7[&!color=#ff8000]:411.217781)[&!color=#ff8000]:411.217781,(Br__Halostella__UniRef90_UPI000EF8332C[&!color=#ff8000]:411.217781,Cyr__Halostella__UniRef90_UPI000EF8332C[&!color=#ff8000]:411.217781)[&!color=#ff8000]:411.217781)[&!color=#ff8000]:411.217781)[&!color=#ff8000]:616.826672)[&!color=#ff8000]:616.826672)[&!color=#ff8000]:246.730669,((((((Br__Halobacteria__UR50_U1R2U7[&!color=#ff8000]:387.719622,Xer__Halobacteria__UR50_U1R2U7[&!color=#ff8000]:387.719622)[&!color=#ff8000]:387.719622,Cyr__Halobacteria__UR50_U1R2U7[&!color=#ff8000]:775.439244)[&!color=#ff8000]:387.719622,Cyhr__Halobacteria__UR50_U1R2U7[&!color=#ff8000]:1163.158866)[&!color=#ff8000]:387.719622,(Br__cellular__UR50_U5TY47[&!color=#ff8000]:775.439244,Cyr__cellular__UR50_U5TY47[&!color=#ff8000]:775.439244)[&!color=#ff8000]:775.439244)[&!color=#ff8000]:387.719622,(Cyr__unclassified__UniRef90_UPI00240609FF[&!color=#ff8000]:969.299055,Cyr__Halobaculum__UniRef90_UPI0024C3D685[&!color=#ff8000]:969.299055)[&!color=#ff8000]:969.299055)[&!color=#ff8000]:387.719622,(Cyr__Salinirubrum__UniRef90_UPI001D05D8F0[&!color=#ff8000]:1163.158866,Cyr__Salinigranum__UniRef90_A0A2I8VP32[&!color=#ff8000]:1163.158866)[&!color=#ff8000]:1163.158866)[&!color=#ff8000]:387.719622)[&!color=#ff8000]:246.730669)[&!color=#ff8000]:148.038401,((Br__Haloquadratum__UR50_Q18DH5[&!color=#ff8000]:1036.268808,Cyr__Haloquadratum__UR50_Q18DH5[&!color=#ff8000]:1036.268808)[&!color=#ff8000]:1036.268808,Cyhr__Haloquadratum__UR50_Q18DH5[&!color=#ff8000]:2072.537616)[&!color=#ff8000]:1036.268808)[&!color=#ff8000]:148.038401,((((((Br__Halobacteriales__UR50_A0A2R6DJW3[&!color=#ff8000]:465.263547,Cyr__Halobacteriales__UR50_A0A2R6DJW3[&!color=#ff8000]:465.263547)[&!color=#ff8000]:465.263547,Xer__Halobacteriales__UR50_A0A2R6DJW3[&!color=#ff8000]:930.527093)[&!color=#ff8000]:465.263547,Cyr__Halobacteriales__UniRef90_A0A2R6DJW3[&!color=#ff8000]:1395.79064)[&!color=#ff8000]:465.263547,Cyhr__Halobacteriales__UR50_A0A2R6DJW3[&!color=#ff8000]:1861.054186)[&!color=#ff8000]:465.263547,Cyr__Halobacteriales__UniRef90_A0A2R6F6G8[&!color=#ff8000]:2326.317733)[&!color=#ff8000]:465.263547,(Cyr__Halobacteriales__UniRef90_A0A2R6EJH4[&!color=#ff8000]:1395.79064,((Cyr__Halorussus__UniRef90_UPI0010932F32[&!color=#ff8000]:465.263547,Cyr__Halorussus__UniRef90_UPI001FB584AA[&!color=#ff8000]:465.263547)[&!color=#ff8000]:465.263547,Cyr__Halorussus__UniRef90_UPI0023E81FAE[&!color=#ff8000]:930.527093)[&!color=#ff8000]:465.263547)[&!color=#ff8000]:1395.79064)[&!color=#ff8000]:465.263547)[&!color=#ff8000]:148.038401,(((Br__Halorutilus__UR50_A0A9Q4C304[&!color=#ff8000]:851.220807,Cyr__Halorutilus__UR50_A0A9Q4C304[&!color=#ff8000]:851.220807)[&!color=#ff8000]:851.220807,Cyhr__Halorutilus__UR50_A0A9Q4C304[&!color=#ff8000]:1702.441613)[&!color=#ff8000]:851.220807,((((Br__Halovenus__UR50_A0A6B0T5F9[&!color=#ff8000]:510.732484,Cyhr__Halovenus__UR50_A0A6B0T5F9[&!color=#ff8000]:510.732484)[&!color=#ff8000]:510.732484,(((Br__Halorutilus__UR50_A0A9Q4C3E6[&!color=#ff8000]:255.366242,Cyr__Halorutilus__UR50_A0A9Q4C3E6[&!color=#ff8000]:255.366242)[&!color=#ff8000]:255.366242,Cyhr__Halorutilus__UR50_A0A9Q4C3E6[&!color=#ff8000]:510.732484)[&!color=#ff8000]:255.366242,(Cyhr__Halobacteria__UR50_P42196[&!color=#ff8000]:383.049363,Cyr__Halobacteria__UR50_P42196[&!color=#ff8000]:383.049363)[&!color=#ff8000]:383.049363)[&!color=#ff8000]:255.366242)[&!color=#ff8000]:510.732484,((((Cyhr__Halobacteria__UR50_A0A125T1B2[&!color=#ff8000]:306.43949,Cyr__Halobacteria__UR50_A0A125T1B2[&!color=#ff8000]:306.43949)[&!color=#ff8000]:306.43949,(Cyhr__Haloplanus__UR50_A0A6B9FAL0[&!color=#ff8000]:306.43949,(Cyhr__Halohasta__UR50_A0A1H6WB68[&!color=#ff8000]:153.219745,Cyhr__Haloferacales__UR50_U1P7Y5[&!color=#ff8000]:153.219745)[&!color=#ff8000]:153.219745)[&!color=#ff8000]:306.43949)[&!color=#ff8000]:306.43949,Cyhr__Halobellus__UR50_A0A498G7H5[&!color=#ff8000]:919.318471)[&!color=#ff8000]:306.43949,((Cyhr__Halobacteria__UR50_A0A6G3ZG40[&!color=#ff8000]:408.585987,Xer__Halobacteria__UR50_A0A6G3ZG40[&!color=#ff8000]:408.585987)[&!color=#ff8000]:408.585987,Cyr__Halobacteria__UR50_A0A6G3ZG40[&!color=#ff8000]:817.171974)[&!color=#ff8000]:408.585987)[&!color=#ff8000]:306.43949)[&!color=#ff8000]:510.732484,Cyr__Halapricum__UR50_A0A897NL32[&!color=#ff8000]:2042.929936)[&!color=#ff8000]:510.732484)[&!color=#ff8000]:851.220807)[&!color=#ff8000]:148.038401):97.473139);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=396;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=500.0;
+	set scaleAxis.minorTicks=250.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=400.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

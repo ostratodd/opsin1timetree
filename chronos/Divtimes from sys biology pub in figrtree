@@ -1,0 +1,291 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=189;
+	taxlabels
+	'Acaryochloris.marina.MBIC11017'
+	'Acaryochloris.sp.RCC1774'
+	'Aliterella.atlantica.CENA595'
+	'Alkalinema.sp.CACIAM.70d'
+	'Anabaena.sp.90'
+	'Anabaena.sp.PCC7108'
+	'Anabaenopsis.circularis.NIES-21'
+	'Arthrospira.platensis.str.Paraca'
+	'Atelocyanobacterium.thalassa.UCYNA'[&!color=#ff00ff]
+	'Atelocyanobacterium.thalassa.UCYNA2'[&!color=#ff00ff]
+	'Calothrix.parasitica.NIES-267'
+	'Calothrix.rhizosoleniae.SC01'
+	'Calothrix.sp.3363'[&!color=#0000ff]
+	'Calothrix.sp.NIES-2100'
+	'Calothrix.sp.NIES-3974'
+	'Calothrix.sp.NIES-4101'
+	'Calothrix.sp.NIES-4105'
+	'Calothrix.sp.PCC.7507'
+	'Chamaesiphon.polymorphus.CCALA.037'
+	'Chlorogloeopsis.fritschii.PCC6912'
+	'Chondrocystis.sp.NIES-4102'
+	'Chroococcales.cyanobacterium.IPPAS.B-1203'
+	'Chroococcidiopsis.thermalis.PCC7203'
+	'Chrysosporum.ovalisporum'
+	'Crinalium.epipsammum.PCC.9333'
+	'Crocosphaera.watsonii.WH8501'
+	'Cyanobacteria.bacterium.QS_8_64_29'
+	'Cyanobacterium.aponinum.PCC10605'
+	'Cyanobacterium.stanieri.HL-69'
+	'Cyanobacterium.stanieri.PCC7202'
+	'Cyanobium.gracile.PCC6307'
+	'Cyanobium.sp.NIES-981'
+	'Cyanothece.sp.BG0011'
+	'Cyanothece.sp.CCY0110'
+	'Cyanothece.sp.PCC7424'
+	'Cyanothece.sp.PCC7425'
+	'Cyanothece.sp.PCC7822'
+	'Cyanothece.sp.PCC8802'
+	'Cylindrospermopsis.raciborskii.CS505'
+	'Cylindrospermum.stagnale.PCC7417'
+	'Dactylococcopsis.salina.PCC.8305'
+	'Desertifilum.sp.IPPAS.B-1220'
+	'Dolichospermum.circinale.AWQC310F'
+	'Dolichospermum.compactum.NIES-806'
+	'Fischerella.muscicola.PCC.7414'
+	'Fischerella.muscicola.PCC73103'
+	'Fischerella.sp.JSC11'[&!color=#0000ff]
+	'Fischerella.sp.NIES-4106'
+	'Fischerella.sp.PCC.9339'
+	'Fischerella.sp.PCC9605'
+	'Geitlerinema.sp.PCC.7105'
+	'Geitlerinema.sp.PCC.7407'
+	'Geitlerinema.sp.PCC.9228'
+	'Geminocystis.herdmanii.PCC6308'
+	'Geminocystis.sp.NIES-3708'
+	'Gloeobacter.kilaueensis.JS1'
+	'Gloeobacter.violaceus.PCC7421'
+	'Gloeocapsa.sp.PCC.73106'
+	'Gloeocapsa.sp.PCC7428'
+	'Gloeomargarita.lithophora.Alchichica-D10'
+	'Halomicronema.hongdechloris.C2206'
+	'Halothece.sp.KZN.001'
+	'Halothece.sp.PCC7418'
+	'Hapalosiphon.sp.MRB220'
+	'Hassallia.byssoidea.VB512170'
+	'Hydrococcus.rivularis.NIES-593'
+	'Hydrocoleum.sp.CS-953'
+	'Kamptonema.formosum.PCC.6407'
+	'Leptolyngbya.antarctica'
+	'Leptolyngbya.boryana.PCC6306'
+	'Leptolyngbya.foveolarum'
+	'Leptolyngbya.ohadii.IS1'
+	'Leptolyngbya.sp.Heron.Island.J.1'
+	'Leptolyngbya.sp.NIES-3755'
+	'Leptolyngbya.sp.O-77'
+	'Leptolyngbya.sp.PCC.6406'
+	'Leptolyngbya.sp.PCC7375'
+	'Leptolyngbya.sp.PCC7376'[&!color=#ff0000]
+	'Leptolyngbya.sp.hensonii'
+	'Limnoraphis.robusta.CS-951'
+	'Limnothrix.sp.CACIAM.69d'
+	'Limnothrix.sp.PR1529'
+	'Lyngbya.aestuarii.BL.J'
+	'Mastigocoleus.testarum.BC008'
+	'Microcoleus.chthonoplastes.PCC7420'
+	'Microcoleus.sp.PCC7113'
+	'Microcystis.aeruginosa.NIES843'
+	'Moorea.bouillonii.PNG5-198'
+	NPacTricho
+	'Neosynechococcus.sphagnicola.CAUP.A.1101'
+	'Nodularia.sp.NIES-3585'
+	'Nodularia.spumigena.CCY9414'
+	'Nostoc.azollae.0708'
+	'Nostoc.calcicola.FACHB-389'
+	'Nostoc.flagelliforme.CCNUN1'
+	'Nostoc.piscinale.CENA21'
+	'Nostoc.punctiforme.PCC.73102'
+	'Nostoc.sp.KVJ20'
+	'Nostoc.sp.NIES-4103'
+	'Nostoc.sp.PCC7120'
+	'Nostoc.sp.PCC7524'
+	'Nostoc.sp.Peltigera.membranacea.cyanobiont.213'
+	'Nostoc.sp.T09'
+	'Oscillatoria.acuminata.PCC6304'
+	'Oscillatoria.nigro.viridis.PCC7112'
+	'Oscillatoria.sp.PCC10802'
+	'Oscillatoriales.cyanobacterium.CG2_30_40_61'
+	'Oscillatoriales.cyanobacterium.CG2_30_44_21'
+	'Oscillatoriales.cyanobacterium.JSC-12'
+	'P.marinus.str.MIT9202'
+	'P.marinus.str.MIT9301'
+	'P.marinus.str.MIT9303'
+	'P.marinus.str.MIT9515'
+	'P.marinus.str.NATL1A'
+	'P.marinus.subsp.marinus.str.CCMP1375'
+	'P.sp.MIT0801'
+	'Phormidesmis.priestleyi.BC1401'
+	'Phormidium.sp.HE10JO'
+	'Planktothricoides.sp.SR001'
+	'Planktothrix.mougeotii.NIVA-CYA.405'
+	'Planktothrix.tepida.PCC.9214'
+	'Pleurocapsa.sp.CCALA.161'
+	'Pleurocapsa.sp.PCC7319'[&!color=#00ff00]
+	'Pleurocapsa.sp.PCC7327'[&!color=#00ff00]
+	'Prochlorococcus.sp.RS04'
+	'Prochloron.didemni.P3.Solomon'
+	'Prochloron.didemni.P4.Papua.New.Guinea'
+	'Prochlorothrix.hollandica.PCC9006'
+	'Pseudanabaena.biceps.PCC7429'[&!color=#ff0000]
+	'Pseudanabaena.frigida'
+	'Pseudanabaena.sp.BC1403'
+	'Pseudanabaena.sp.PCC7367'
+	'Raphidiopsis.brookii.D9'
+	'Richelia.intracellularis.HH01'
+	'Richelia.intracellularis.HM01'[&!color=#ff8000]
+	'Richelia.intracellularis.RC01'[&!color=#ff8000]
+	'Roseofilum.reptotaenium.AO1-A'
+	'Rubidibacter.lacunae.KORDI.51-2'
+	'Scytonema.hofmanni.UTEX.2349'
+	'Scytonema.hofmannii.PCC.7110'
+	'Scytonema.sp.NIES-4073'
+	'Scytonema.tolypothrichoides.VB-61278'
+	'Snowella.sp.ULC335bin1'
+	'Sphaerospermopsis.kisseleviana.NIES-73'
+	'Spirulina.major.PCC.6313'
+	'Spirulina.subsalsa.PCC9445'
+	'Stanieria.cyanosphaera.PCC7437'
+	'Synechococcus.Tous'
+	'Synechococcus.elongatus.PCC6301'
+	'Synechococcus.lividus.PCC.6715'
+	'Synechococcus.sp.1G10'
+	'Synechococcus.sp.60AY4M2'
+	'Synechococcus.sp.8F6'
+	'Synechococcus.sp.CB0205'
+	'Synechococcus.sp.CC9605'
+	'Synechococcus.sp.CC9616.genomic'
+	'Synechococcus.sp.CC9902'
+	'Synechococcus.sp.JA23Bprimea213'
+	'Synechococcus.sp.LL'
+	'Synechococcus.sp.MIT.S9508'
+	'Synechococcus.sp.MIT.S9509'
+	'Synechococcus.sp.MW101C3'
+	'Synechococcus.sp.NIES-970'
+	'Synechococcus.sp.PCC.7003'
+	'Synechococcus.sp.PCC.73109'
+	'Synechococcus.sp.PCC6312'
+	'Synechococcus.sp.PCC7002'
+	'Synechococcus.sp.PCC7335'
+	'Synechococcus.sp.PCC7336'
+	'Synechococcus.sp.PCC7502'
+	'Synechococcus.sp.RCC307'
+	'Synechococcus.sp.RS9916'
+	'Synechococcus.sp.WH.8020'
+	'Synechococcus.sp.WH.8103'
+	'Synechococcus.sp.WH5701'
+	'Synechococcus.sp.WH7805'
+	'Synechococcus.spongiarum.SH4'
+	'Synechocystis.sp.PCC6803'
+	'Synechocystis.sp.PCC7509'
+	'Thermosynechococcus.elongatus.BP1'
+	'Tolypothrix.bouteillei.VB521301'
+	'Tolypothrix.campylonemoides.VB511288'
+	'Tolypothrix.sp.PCC.7601'
+	'Tolypothrix.tenuis.PCC.7101'
+	'Trichodesmium.erythraeum.IMS101'
+	'Tychonema.bourrellyi.FEM_GT703'
+	'Xenococcus.sp.PCC7305'
+	'cyanobacterium.endosymbiont.of.Epithemia.turgida'
+	'filamentous.cyanobacterium.ESFC-1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('Gloeobacter.violaceus.PCC7421'[&!color=#000000]:0.111267,'Gloeobacter.kilaueensis.JS1'[&!color=#000000]:0.11942)[&!color=#000000]:0.293556,((('Synechococcus.sp.JA23Bprimea213'[&!color=#000000]:0.036638,'Synechococcus.sp.60AY4M2'[&!color=#000000]:0.044409)[&!color=#000000]:0.269194,'Synechococcus.sp.PCC7336'[&!color=#000000]:0.285585)[&!color=#000000]:0.114748,((('Synechococcus.sp.PCC7502'[&!color=#ff0000]:0.192404,((('Pseudanabaena.frigida'[&!color=#ff0000]:0.033772,'Pseudanabaena.sp.BC1403'[&!color=#ff0000]:0.029998)[&!color=#ff0000]:0.010076,'Pseudanabaena.biceps.PCC7429'[&!color=#ff0000]:0.034514)[&!color=#ff0000]:0.020491,'Oscillatoriales.cyanobacterium.CG2_30_44_21'[&!color=#ff0000]:0.080871)[&!color=#ff0000]:0.173604)[&!color=#ff0000]:0.04405,'Pseudanabaena.sp.PCC7367'[&!color=#ff0000]:0.210966)[&!color=#ff0000]:0.14327,('Gloeomargarita.lithophora.Alchichica-D10'[&!color=#ff0000]:0.462516,((('Acaryochloris.sp.RCC1774'[&!color=#ff0000]:0.156633,'Acaryochloris.marina.MBIC11017'[&!color=#ff0000]:0.155045)[&!color=#ff0000]:0.097639,('Cyanothece.sp.PCC7425'[&!color=#ff0000]:0.148652,(('Thermosynechococcus.elongatus.BP1'[&!color=#ff0000]:0.073078,'Synechococcus.lividus.PCC.6715'[&!color=#ff0000]:0.14963)[&!color=#ff0000]:0.132405,'Synechococcus.sp.PCC6312'[&!color=#ff0000]:0.167095)[&!color=#ff0000]:0.086355)[&!color=#ff0000]:0.043702)[&!color=#ff0000]:0.048948,((((('Synechococcus.sp.PCC7335'[&!color=#ff0000]:0.098867,'Leptolyngbya.foveolarum'[&!color=#ff0000]:0.115356)[&!color=#ff0000]:0.124305,('Leptolyngbya.sp.Heron.Island.J.1'[&!color=#ff0000]:0.035639,'Leptolyngbya.sp.PCC7375'[&!color=#ff0000]:0.040859)[&!color=#ff0000]:0.149081)[&!color=#ff0000]:0.056698,('Leptolyngbya.sp.PCC.6406'[&!color=#ff0000]:0.165997,('Leptolyngbya.antarctica'[&!color=#ff0000]:0.171083,'Halomicronema.hongdechloris.C2206'[&!color=#ff0000]:0.161369)[&!color=#ff0000]:0.027176)[&!color=#ff0000]:0.035568)[&!color=#ff0000]:0.071946,(('Limnothrix.sp.PR1529'[&!color=#ff0000]:0.041527,'Limnothrix.sp.CACIAM.69d'[&!color=#ff0000]:0.006559)[&!color=#ff0000]:0.273399,(('Synechococcus.elongatus.PCC6301'[&!color=#ff0000]:0.186921,(((((('Synechococcus.sp.LL'[&!color=#ff0000]:0.06317,'Synechococcus.sp.CB0205'[&!color=#ff0000]:0.103479)[&!color=#ff0000]:0.03592,('Cyanobium.gracile.PCC6307'[&!color=#ff0000]:0.110312,('Synechococcus.sp.8F6'[&!color=#ff0000]:0.068846,'Cyanobium.sp.NIES-981'[&!color=#ff0000]:0.085568)[&!color=#ff0000]:0.022498)[&!color=#ff0000]:0.019973)[&!color=#ff0000]:0.018807,(('Synechococcus.sp.WH5701'[&!color=#ff0000]:0.021789,'Synechococcus.sp.1G10'[&!color=#ff0000]:0.02856)[&!color=#ff0000]:0.069684,'Synechococcus.sp.MW101C3'[&!color=#ff0000]:0.095984)[&!color=#ff0000]:0.041524)[&!color=#ff0000]:0.034901,((((('Synechococcus.sp.CC9605'[&!color=#ff0000]:0.06178,'Synechococcus.sp.CC9902'[&!color=#ff0000]:0.087976)[&!color=#ff0000]:0.014475,'Synechococcus.sp.WH.8103'[&!color=#ff0000]:0.066466)[&!color=#ff0000]:0.017335,'Synechococcus.sp.CC9616.genomic'[&!color=#ff0000]:0.082023)[&!color=#ff0000]:0.048328,(('Synechococcus.sp.WH.8020'[&!color=#ff0000]:0.096586,(('Synechococcus.sp.MIT.S9509'[&!color=#ff0000]:0.019275,'Synechococcus.sp.MIT.S9508'[&!color=#ff0000]:0.018212)[&!color=#ff0000]:0.053897,'Synechococcus.sp.WH7805'[&!color=#ff0000]:0.063072)[&!color=#ff0000]:0.028705)[&!color=#ff0000]:0.021406,'Synechococcus.sp.RS9916'[&!color=#ff0000]:0.084133)[&!color=#ff0000]:0.026357)[&!color=#ff0000]:0.0254,('P.marinus.str.MIT9303'[&!color=#ff0000]:0.102666,((('P.sp.MIT0801'[&!color=#ff0000]:0.020404,'P.marinus.str.NATL1A'[&!color=#ff0000]:0.016973)[&!color=#ff0000]:0.167098,((('Prochlorococcus.sp.RS04'[&!color=#ff0000]:0.012851,'P.marinus.str.MIT9301'[&!color=#ff0000]:0.014437)[&!color=#ff0000]:0.010382,'P.marinus.str.MIT9202'[&!color=#ff0000]:0.020619)[&!color=#ff0000]:0.054176,'P.marinus.str.MIT9515'[&!color=#ff0000]:0.068436)[&!color=#ff0000]:0.31252)[&!color=#ff0000]:0.053088,'P.marinus.subsp.marinus.str.CCMP1375'[&!color=#ff0000]:0.186667)[&!color=#ff0000]:0.120841)[&!color=#ff0000]:0.050329)[&!color=#ff0000]:0.068816)[&!color=#ff0000]:0.033805,('Synechococcus.Tous'[&!color=#ff0000]:0.167824,'Synechococcus.sp.RCC307'[&!color=#ff0000]:0.109009)[&!color=#ff0000]:0.067057)[&!color=#ff0000]:0.121993,'Synechococcus.spongiarum.SH4'[&!color=#ff0000]:0.349629)[&!color=#ff0000]:0.33105)[&!color=#ff0000]:0.07566,'Prochlorothrix.hollandica.PCC9006'[&!color=#ff0000]:0.251893)[&!color=#ff0000]:0.05288)[&!color=#ff0000]:0.031153)[&!color=#ff0000]:0.020565,(((('Oscillatoriales.cyanobacterium.JSC-12'[&!color=#ff0000]:0.161423,((('Leptolyngbya.sp.NIES-3755'[&!color=#ff0000]:0.052525,'Leptolyngbya.boryana.PCC6306'[&!color=#ff0000]:0.046788)[&!color=#ff0000]:0.095853,'Phormidesmis.priestleyi.BC1401'[&!color=#ff0000]:0.119653)[&!color=#ff0000]:0.032172,'Alkalinema.sp.CACIAM.70d'[&!color=#ff0000]:0.197727)[&!color=#ff0000]:0.045273)[&!color=#ff0000]:0.032244,('Neosynechococcus.sphagnicola.CAUP.A.1101'[&!color=#ff0000]:0.253535,'Leptolyngbya.sp.hensonii'[&!color=#ff0000]:0.19963)[&!color=#ff0000]:0.032882)[&!color=#ff0000]:0.016745,(('Leptolyngbya.sp.O-77'[&!color=#ff0000]:0.162212,'Leptolyngbya.ohadii.IS1'[&!color=#ff0000]:0.147491)[&!color=#ff0000]:0.051883,'Geitlerinema.sp.PCC.7407'[&!color=#ff0000]:0.238672)[&!color=#ff0000]:0.016808)[&!color=#ff0000]:0.018955,((('Desertifilum.sp.IPPAS.B-1220'[&!color=#ff0000]:0.137871,'Roseofilum.reptotaenium.AO1-A'[&!color=#ff0000]:0.227291)[&!color=#ff0000]:0.056315,(('Phormidium.sp.HE10JO'[&!color=#ff0000]:0.131705,'Geitlerinema.sp.PCC.7105'[&!color=#ff0000]:0.173902)[&!color=#ff0000]:0.126151,'Geitlerinema.sp.PCC.9228'[&!color=#ff0000]:0.279345)[&!color=#ff0000]:0.043235)[&!color=#ff0000]:0.015405,((((((('Chroococcales.cyanobacterium.IPPAS.B-1203'[&!color=#ff0000]:0.034167,'Gloeocapsa.sp.PCC7428'[&!color=#ff0000]:0.026013)[&!color=#ff0000]:0.084575,('Aliterella.atlantica.CENA595'[&!color=#ff0000]:0.058711,'Synechocystis.sp.PCC7509'[&!color=#ff0000]:0.088016)[&!color=#ff0000]:0.07716)[&!color=#ff0000]:0.022492,'Chroococcidiopsis.thermalis.PCC7203'[&!color=#ff0000]:0.146496)[&!color=#ff0000]:0.023989,((((((((('Nostoc.sp.Peltigera.membranacea.cyanobiont.213'[&!color=#0000ff]:0.015642,'Nostoc.punctiforme.PCC.73102'[&!color=#0000ff]:0.009818)[&!color=#0000ff]:0.00812,'Nostoc.flagelliforme.CCNUN1'[&!color=#0000ff]:0.019388)[&!color=#0000ff]:0.005185,'Nostoc.sp.KVJ20'[&!color=#0000ff]:0.013794)[&!color=#0000ff]:0.025353,'Nostoc.calcicola.FACHB-389'[&!color=#0000ff]:0.038041)[&!color=#0000ff]:0.02879,'Nostoc.sp.NIES-4103'[&!color=#0000ff]:0.057728)[&!color=#0000ff]:0.010278,(((('Cylindrospermum.stagnale.PCC7417'[&!color=#0000ff]:0.057377,(((('Dolichospermum.compactum.NIES-806'[&!color=#0000ff]:0.019737,'Anabaena.sp.90'[&!color=#0000ff]:0.021198)[&!color=#0000ff]:0.018433,'Dolichospermum.circinale.AWQC310F'[&!color=#0000ff]:0.040866)[&!color=#0000ff]:0.048505,'Anabaena.sp.PCC7108'[&!color=#0000ff]:0.039781)[&!color=#0000ff]:0.011524,('Nostoc.azollae.0708'[&!color=#0000ff]:0.051002,(('Raphidiopsis.brookii.D9'[&!color=#0000ff]:0.020398,'Cylindrospermopsis.raciborskii.CS505'[&!color=#0000ff]:0.013066)[&!color=#0000ff]:0.098076,'Sphaerospermopsis.kisseleviana.NIES-73'[&!color=#0000ff]:0.053275)[&!color=#0000ff]:0.027274)[&!color=#0000ff]:0.015936)[&!color=#0000ff]:0.032428)[&!color=#0000ff]:0.01855,(('Nodularia.spumigena.CCY9414'[&!color=#0000ff]:0.019876,'Nodularia.sp.NIES-3585'[&!color=#0000ff]:0.019087)[&!color=#0000ff]:0.02366,'Chrysosporum.ovalisporum'[&!color=#0000ff]:0.05793)[&!color=#0000ff]:0.045)[&!color=#0000ff]:0.007874,(('Nostoc.sp.PCC7524'[&!color=#0000ff]:0.043046,'Nostoc.sp.PCC7120'[&!color=#0000ff]:0.049555)[&!color=#0000ff]:0.021464,('Nostoc.piscinale.CENA21'[&!color=#0000ff]:0.027353,'Anabaenopsis.circularis.NIES-21'[&!color=#0000ff]:0.023923)[&!color=#0000ff]:0.041015)[&!color=#0000ff]:0.016891)[&!color=#0000ff]:0.006843,(('Nostoc.sp.T09'[&!color=#0000ff]:0.039343,('Calothrix.sp.NIES-2100'[&!color=#0000ff]:0.029676,('Tolypothrix.sp.PCC.7601'[&!color=#0000ff]:0.008239,'Tolypothrix.tenuis.PCC.7101'[&!color=#0000ff]:0.005949)[&!color=#0000ff]:0.029712)[&!color=#0000ff]:0.011508)[&!color=#0000ff]:0.025694,'Calothrix.sp.PCC.7507'[&!color=#0000ff]:0.063791)[&!color=#0000ff]:0.015962)[&!color=#0000ff]:0.007084)[&!color=#0000ff]:0.024566,('Scytonema.hofmanni.UTEX.2349'[&!color=#0000ff]:0.04845,'Hassallia.byssoidea.VB512170'[&!color=#0000ff]:0.055208)[&!color=#0000ff]:0.070581)[&!color=#0000ff]:0.020457,(((('Tolypothrix.campylonemoides.VB511288'[&!color=#0000ff]:0.016634,'Scytonema.sp.NIES-4073'[&!color=#0000ff]:0.015731)[&!color=#0000ff]:0.032334,'Scytonema.tolypothrichoides.VB-61278'[&!color=#0000ff]:0.060235)[&!color=#0000ff]:0.02499,('Tolypothrix.bouteillei.VB521301'[&!color=#0000ff]:0.047595,'Scytonema.hofmannii.PCC.7110'[&!color=#0000ff]:0.029264)[&!color=#0000ff]:0.062513)[&!color=#0000ff]:0.027614,(((('Fischerella.sp.JSC11'[&!color=#0000ff]:0.013221,'Fischerella.muscicola.PCC.7414'[&!color=#0000ff]:0.033059)[&!color=#0000ff]:0.012479,('Hapalosiphon.sp.MRB220'[&!color=#0000ff]:0.012277,('Fischerella.muscicola.PCC73103'[&!color=#0000ff]:0.009479,('Fischerella.sp.NIES-4106'[&!color=#0000ff]:0.051971,'Fischerella.sp.PCC.9339'[&!color=#0000ff]:0.013116)[&!color=#0000ff]:0.004071)[&!color=#0000ff]:0.003873)[&!color=#0000ff]:0.023626)[&!color=#0000ff]:0.028685,'Fischerella.sp.PCC9605'[&!color=#0000ff]:0.037774)[&!color=#0000ff]:0.019906,'Chlorogloeopsis.fritschii.PCC6912'[&!color=#0000ff]:0.054022)[&!color=#0000ff]:0.033775)[&!color=#0000ff]:0.011866)[&!color=#0000ff]:0.01068,(('Calothrix.sp.3363'[&!color=#0000ff]:0.110133,(('Calothrix.sp.NIES-4105'[&!color=#0000ff]:0.091416,'Calothrix.sp.NIES-4101'[&!color=#0000ff]:0.072714)[&!color=#0000ff]:0.036497,'Calothrix.sp.NIES-3974'[&!color=#0000ff]:0.169284)[&!color=#0000ff]:0.029212)[&!color=#0000ff]:0.020684,(((('Richelia.intracellularis.HM01'[&!color=#ff8000]:0.107701,'Richelia.intracellularis.HH01'[&!color=#ff8000]:0.043141)[&!color=#ff8000]:0.096793,'Richelia.intracellularis.RC01'[&!color=#ff8000]:0.072556)[&!color=#ff8000,!hilight={3,0.8011820000000003,#ffffff}]:0.029002,'Calothrix.rhizosoleniae.SC01'[&!color=#0000ff]:0.055507)[&!color=#0000ff]:0.076727,('Mastigocoleus.testarum.BC008'[&!color=#0000ff]:0.153566,'Calothrix.parasitica.NIES-267'[&!color=#0000ff]:0.150531)[&!color=#0000ff]:0.030111)[&!color=#0000ff]:0.017137)[&!color=#0000ff]:0.012226)[&!color=#0000ff]:0.066187)[&!color=#ff0000]:0.047273,('Crinalium.epipsammum.PCC.9333'[&!color=#ff0000]:0.12311,'Chamaesiphon.polymorphus.CCALA.037'[&!color=#ff0000]:0.353557)[&!color=#ff0000]:0.047923)[&!color=#ff0000]:0.019858,((((((('Cyanothece.sp.PCC7822'[&!color=#00ff00]:0.062342,'Cyanothece.sp.PCC7424'[&!color=#00ff00]:0.057605)[&!color=#00ff00]:0.08845,('Pleurocapsa.sp.PCC7327'[&!color=#00ff00]:0.009075,'Hydrococcus.rivularis.NIES-593'[&!color=#00ff00]:0.010417)[&!color=#00ff00]:0.118663)[&!color=#00ff00]:0.021897,(('Microcystis.aeruginosa.NIES843'[&!color=#00ff00]:0.190614,('Snowella.sp.ULC335bin1'[&!color=#00ff00]:0.128378,'Synechocystis.sp.PCC6803'[&!color=#00ff00]:0.190781)[&!color=#00ff00]:0.064167)[&!color=#00ff00]:0.022251,(('Cyanothece.sp.PCC8802'[&!color=#00ff00]:0.065331,'cyanobacterium.endosymbiont.of.Epithemia.turgida'[&!color=#00ff00]:0.211278)[&!color=#00ff00]:0.038948,((('Cyanothece.sp.CCY0110'[&!color=#00ff00]:0.021455,'Cyanothece.sp.BG0011'[&!color=#00ff00]:0.041799)[&!color=#00ff00]:0.020783,'Crocosphaera.watsonii.WH8501'[&!color=#00ff00]:0.070336)[&!color=#00ff00]:0.041914,('Atelocyanobacterium.thalassa.UCYNA2'[&!color=#ff00ff]:0.047616,'Atelocyanobacterium.thalassa.UCYNA'[&!color=#ff00ff]:0.052476)[&!color=#ff00ff]:0.237491)[&!color=#00ff00]:0.057675)[&!color=#00ff00]:0.050855)[&!color=#00ff00]:0.016666)[&!color=#00ff00]:0.035653,((('Xenococcus.sp.PCC7305'[&!color=#00ff00]:0.253167,('Pleurocapsa.sp.PCC7319'[&!color=#00ff00]:0.091993,('Chondrocystis.sp.NIES-4102'[&!color=#00ff00]:0.076575,'Pleurocapsa.sp.CCALA.161'[&!color=#00ff00]:0.09545)[&!color=#00ff00]:0.021552)[&!color=#00ff00]:0.089117)[&!color=#00ff00]:0.031025,'Stanieria.cyanosphaera.PCC7437'[&!color=#00ff00]:0.129084)[&!color=#00ff00]:0.062513,((((('Synechococcus.sp.PCC.73109'[&!color=#00ff00]:0.003594,'Synechococcus.sp.PCC7002'[&!color=#00ff00]:0.004312)[&!color=#00ff00]:0.007603,'Synechococcus.sp.PCC.7003'[&!color=#00ff00]:0.009764)[&!color=#00ff00]:0.029824,'Synechococcus.sp.NIES-970'[&!color=#00ff00]:0.045404)[&!color=#00ff00]:0.048937,'Leptolyngbya.sp.PCC7376'[&!color=#00ff00]:0.096045)[&!color=#00ff00]:0.169028,(('Cyanobacterium.stanieri.HL-69'[&!color=#00ff00]:0.035297,'Cyanobacterium.stanieri.PCC7202'[&!color=#00ff00]:0.028654)[&!color=#00ff00]:0.09079,('Cyanobacterium.aponinum.PCC10605'[&!color=#00ff00]:0.101978,('Geminocystis.sp.NIES-3708'[&!color=#00ff00]:0.054787,'Geminocystis.herdmanii.PCC6308'[&!color=#00ff00]:0.061324)[&!color=#00ff00]:0.043788)[&!color=#00ff00]:0.042313)[&!color=#00ff00]:0.164692)[&!color=#00ff00]:0.03698)[&!color=#00ff00]:0.020779)[&!color=#00ff00]:0.013903,(('Prochloron.didemni.P3.Solomon'[&!color=#ff0000]:0.193121,'Prochloron.didemni.P4.Papua.New.Guinea'[&!color=#ff0000]:0.023347)[&!color=#ff0000]:0.259761,'Gloeocapsa.sp.PCC.73106'[&!color=#ff0000]:0.241986)[&!color=#ff0000]:0.032369)[&!color=#ff0000]:0.031607,((('Spirulina.subsalsa.PCC9445'[&!color=#ff0000]:0.137285,'Spirulina.major.PCC.6313'[&!color=#ff0000]:0.204103)[&!color=#ff0000]:0.049349,'filamentous.cyanobacterium.ESFC-1'[&!color=#ff0000]:0.174984)[&!color=#ff0000]:0.043466,(((('Halothece.sp.KZN.001'[&!color=#ff0000]:0.011377,'Dactylococcopsis.salina.PCC.8305'[&!color=#ff0000]:0.006196)[&!color=#ff0000]:0.065574,'Halothece.sp.PCC7418'[&!color=#ff0000]:0.056649)[&!color=#ff0000]:0.148723,'Cyanobacteria.bacterium.QS_8_64_29'[&!color=#ff0000]:0.319878)[&!color=#ff0000]:0.033598,'Rubidibacter.lacunae.KORDI.51-2'[&!color=#ff0000]:0.251882)[&!color=#ff0000]:0.067732)[&!color=#ff0000]:0.018948)[&!color=#ff0000]:0.04932,('Moorea.bouillonii.PNG5-198'[&!color=#ff0000]:0.162253,('Microcoleus.chthonoplastes.PCC7420'[&!color=#ff0000]:0.128131,'Microcoleus.sp.PCC7113'[&!color=#ff0000]:0.106047)[&!color=#ff0000]:0.024077)[&!color=#ff0000]:0.038998)[&!color=#ff0000]:0.031069)[&!color=#ff0000]:0.016488,(((((('Lyngbya.aestuarii.BL.J'[&!color=#ff0000]:0.050113,'Limnoraphis.robusta.CS-951'[&!color=#ff0000]:0.046587)[&!color=#ff0000]:0.088367,'Arthrospira.platensis.str.Paraca'[&!color=#ff0000]:0.156361)[&!color=#ff0000]:0.02024,(('Planktothrix.mougeotii.NIVA-CYA.405'[&!color=#ff0000]:0.020769,'Oscillatoriales.cyanobacterium.CG2_30_40_61'[&!color=#ff0000]:0.048452)[&!color=#ff0000]:0.042922,'Planktothrix.tepida.PCC.9214'[&!color=#ff0000]:0.036165)[&!color=#ff0000]:0.11244)[&!color=#ff0000]:0.049824,(('Trichodesmium.erythraeum.IMS101'[&!color=#ff0000]:0.04065,NPacTricho[&!color=#ff0000]:0.382702)[&!color=#ff0000]:0.036684,'Hydrocoleum.sp.CS-953'[&!color=#ff0000]:0.048052)[&!color=#ff0000]:0.157799)[&!color=#ff0000]:0.029722,(('Tychonema.bourrellyi.FEM_GT703'[&!color=#ff0000]:0.062345,'Oscillatoria.nigro.viridis.PCC7112'[&!color=#ff0000]:0.034957)[&!color=#ff0000]:0.076954,'Kamptonema.formosum.PCC.6407'[&!color=#ff0000]:0.103283)[&!color=#ff0000]:0.06831)[&!color=#ff0000]:0.03368,('Oscillatoria.sp.PCC10802'[&!color=#ff0000]:0.154466,('Oscillatoria.acuminata.PCC6304'[&!color=#ff0000]:0.156803,'Planktothricoides.sp.SR001'[&!color=#ff0000]:0.173165)[&!color=#ff0000]:0.040629)[&!color=#ff0000]:0.021873)[&!color=#ff0000]:0.020129)[&!color=#ff0000]:0.014233)[&!color=#ff0000]:0.027112)[&!color=#ff0000]:0.019776)[&!color=#ff0000]:0.027275)[&!color=#ff0000]:0.038089)[&!color=#ff0000]:0.038008)[&!color=#ff0000]:0.082295)[&!color=#000000]:0.138718)[&!color=#000000];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=59;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,9 +1,10 @@
 #Needs mafft in path such as in optics_env
 
 #add prefix to top 150 cyano hits
-python ./tree_knot/modify_fa.py -i ../cyano_rhodopsins/blast_notebook_results/BAC88139.1_top150_uniref90.fasta -o cyano150.fa -p CYANO150
+#python ./tree_knot/modify_fa.py -i ../cyano_rhodopsins/blast_notebook_results/BAC88139.1_top150_uniref90.fasta -o cyano150.fa -p CYANO150
 
 #combine with broad scale microbial opsin tree
-cat cyano150.fa tree_knot/All_uniref_hits.fa > combined.fa
+#cat cyano150.fa tree_knot/All_uniref_hits.fa > combined.fa
 
-mafft combined.fa
+#mafft installed in optics_env on conda
+mafft combined.fa > combined.ALN.fa
